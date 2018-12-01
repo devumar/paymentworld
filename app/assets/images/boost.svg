@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 113.5 113.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(233,233,233,0.23);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1" y1="0.095" x2="-0.436" y2="1.376" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#29f1d5"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1351" data-name="Group 1351" transform="translate(-1433 -2710)">
+    <circle id="Ellipse_2680" data-name="Ellipse 2680" class="cls-1" cx="56.75" cy="56.75" r="56.75" transform="translate(1433 2710)"/>
+    <g id="iconspace_Rocket_25px" transform="translate(487.689 2351)">
+      <g id="iconspace_Rocket_25px-2" data-name="iconspace_Rocket_25px" transform="translate(965 378.051)">
+        <path id="Rocket" class="cls-2" d="M0,0H74.882V74.882H0Z"/>
+        <path id="Rocket-2" data-name="Rocket" class="cls-3" d="M55.442,4.676c2.033,10.914-2.524,22.49-11.678,29.732L19.508,53.6a1.5,1.5,0,0,1-1.988-.116L5.439,41.4a1.5,1.5,0,0,1-.116-1.988L24.512,15.156C31.753,6,43.329,1.445,54.244,3.478A1.5,1.5,0,0,1,55.442,4.676Zm-21.291,9.5a7.488,7.488,0,1,0,10.59,0A7.488,7.488,0,0,0,34.151,14.179Z" transform="translate(9.976 5.986)"/>
+        <path id="Rocket-3" data-name="Rocket" class="cls-4" d="M46.613,14.67a4.493,4.493,0,1,1,0-6.354A4.493,4.493,0,0,1,46.613,14.67Zm-28.467,31.7L16.8,47.721a4.139,4.139,0,0,1-5.854,0L7.208,43.986a4.139,4.139,0,0,1,0-5.854l1.349-1.349Zm-8.256-20.5L3.667,21.725a1.5,1.5,0,0,1-.1-2.415L18.538,7.328a1.5,1.5,0,0,1,1.605-.17l3.262,1.631ZM46.14,31.523l1.631,3.262a1.5,1.5,0,0,1-.17,1.605L35.62,51.367a1.5,1.5,0,0,1-2.416-.1l-4.149-6.224Z" transform="translate(5.986 13.967)"/>
+      </g>
+    </g>
+  </g>
+</svg>

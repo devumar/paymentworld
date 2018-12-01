@@ -1,0 +1,139 @@
+a {
+  color: #185B6D;
+}
+body{
+  font-family: "ProximaRegular";
+  font-weight: 800;
+}
+h2{
+    font-family: "proximabold";
+    font-size: 45px;
+    line-height: 1.5;
+}
+h4{
+  line-height: 1.5;
+}
+h5{
+  line-height: 1.8;
+}
+p{
+  color: #606060;
+  text-align: center;
+}
+.service-container h2{
+  text-align: center;
+  margin-bottom: 5%;
+}
+/*Header Nav Css*/
+.main-container, .container-nav{
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.nav .nav-item {
+  font-family: "ProximaBold";
+  padding: 0 6px;
+  font-size: 17px;
+}
+.nav .nav-item:nth-last-child(1) a{
+  margin-top: 5px;
+  padding: 3px 16px;
+}
+.navbar{
+  padding: 1rem 1rem !important;
+  z-index: 9999;
+  margin:0px;
+}
+
+.globalNav{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  background-color: white
+}
+/*Bannner below Navbar Header*/
+header{
+  position: relative;
+}
+section {
+  padding-top: 12%;
+}
+.banner{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transform: skewY(-10deg);
+  transform: skewY(-10deg);
+  -webkit-transform-origin: 0;
+  transform-origin: 0;
+  background: linear-gradient(384deg,#509df2 12%,#F905F5 84%);
+  border-radius: 50px;
+}
+.banner span:nth-child(1) {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: -16%;
+    top: -22%;
+    background-color: #ce81f6;
+    border-radius: 50%;
+}
+.container{
+  position: relative;
+}
+#intro{
+  height: 700px;
+  padding-top: 200px;
+}
+#intro span{
+  color: white;
+  border-radius: 25px;
+  padding: 12px 10px;
+  background: rgba(0,0,140,.08);
+  /*box-shadow: 0 0 2px #fff;*/
+}
+.bg-transparent{
+  background-color: transparent;
+}
+.backgrounds-for-svg{
+  display: inline-block;
+   background-image: url('/assets/orangecircle.svg');
+   background-repeat: no-repeat;
+
+}
+.slack{
+  width: 140px;
+  height: 140px;
+  padding: 22px;
+  -moz-animation:spin 4s linear infinite;
+  -webkit-animation:spin 4s linear infinite;
+  animation:spin 10s linear infinite;
+}
+.shopify{
+  padding:22px 30px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*Service container*/
+.service-box{
+    box-shadow: 0 0 8px #ccc;
+    padding:5% 10%;
+    margin-bottom: 10%;
+   /*background: rgba(0,0,140,.08);*/
+}
+.service-box img{
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: auto;
+}

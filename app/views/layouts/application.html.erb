@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%= content_for?(:title) ? yield(:title) : "Pata App" %>
+  </title>
+  <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Pata App" %>">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %> 
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+  <header class="globalNav">
+    <div class="container-nav">
+        <%= render 'layouts/navbar' %>
+    </div>
+  </header>
+       <%#render 'layouts/messages' %>
+      <%= yield %>
+</body>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<%= content_for?(:extra_scripts) ? yield(:extra_scripts) : nil %>
+</html>
+
