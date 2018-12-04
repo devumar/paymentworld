@@ -11,15 +11,14 @@
 </head>
 
 <body>
-  <header class="globalNav">
-    <div class="container-nav">
-        <%= render 'layouts/navbar' %>
-    </div>
-  </header>
+  <header class="container">
+    <%= render 'layouts/navbar' %>
+ </header>
        <%#render 'layouts/messages' %>
       <%= yield %>
 </body>
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 <%= content_for?(:extra_scripts) ? yield(:extra_scripts) : nil %>
 </html>
+
 

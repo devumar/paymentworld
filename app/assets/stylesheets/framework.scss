@@ -465,17 +465,27 @@ body i{font-style:normal}
   border-radius:50px;
   max-height: 50px; 
 }
+.btn-s-white{
+  color: white !important;
+  border-radius: 50px;
+  border: 1px solid #ffffff !important;
+
+}
 .btn-xs-purple{
   padding: 5px 10px;
 }
 .btn-md-purple{
   padding: 15px 25px;
 }
+
 .eighty-gap-top {
     margin-top: 80px !important;
 }
 .sixty-gap-top {
     margin-top: 60px !important;
+}
+.fifty-gap-bottom {
+    margin-bottom: 50px;
 }
 .sixty-pad-bottom {
     padding-bottom: 60px !important;

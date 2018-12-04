@@ -10,5 +10,15 @@
       <stop offset="1" stop-color="#17c9f2"/>
     </linearGradient>
   </defs>
-  <circle id="Ellipse_2757" data-name="Ellipse 2757" class="cls-1" cx="25" cy="25" r="25"/>
+  <circle id="Ellipse_2757" data-name="Ellipse 2757" class="cls-1" cx="25" cy="25" r="45">
+       <animateTransform 
+        id ="asassssads"
+         attributeName="transform"
+         attributeType= "XML"
+         type="rotate"
+         from="0 25 25"
+         to="360 25 25"
+         dur="1s"
+        />
+  </circle>
 </svg>
