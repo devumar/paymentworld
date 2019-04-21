@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207.149" height="304.359" viewBox="0 0 207.149 304.359">
+  <defs>
+    <filter id="Rectangle_2518" x="0" y="0" width="207.149" height="304.359" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.206" y1="-0.185" x2="1.123" y2="1.144" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f905f5"/>
+      <stop offset="1" stop-color="#17c9f2"/>
+    </linearGradient>
+  </defs>
+  <g id="Card_Machine" data-name="Card Machine" transform="translate(-30.824 -168.504)">
+    <g id="OBJECTS" transform="translate(0 64.606)">
+      <g transform="matrix(1, 0, 0, 1, 30.82, 103.9)" filter="url(#Rectangle_2518)">
+        <rect id="Rectangle_2518-2" data-name="Rectangle 2518" width="171.149" height="268.359" rx="18" transform="translate(12 12)" fill="#575756"/>
+      </g>
+      <rect id="Rectangle_2519" data-name="Rectangle 2519" width="31.701" height="21.13" rx="3.6" transform="translate(72.406 253.238)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2520" data-name="Rectangle 2520" width="31.701" height="21.13" rx="3.6" transform="translate(72.406 282.82)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2521" data-name="Rectangle 2521" width="31.701" height="21.13" rx="3.6" transform="translate(72.406 312.402)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2522" data-name="Rectangle 2522" width="31.701" height="21.13" rx="3.6" transform="translate(72.406 341.985)" fill="#f15c4f"/>
+      <rect id="Rectangle_2523" data-name="Rectangle 2523" width="31.69" height="21.13" rx="3.6" transform="translate(112.559 253.238)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2524" data-name="Rectangle 2524" width="31.69" height="21.13" rx="3.6" transform="translate(112.559 282.82)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2525" data-name="Rectangle 2525" width="31.69" height="21.13" rx="3.6" transform="translate(112.559 312.402)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2526" data-name="Rectangle 2526" width="31.69" height="21.13" rx="3.6" transform="translate(112.559 341.985)" fill="#fed667"/>
+      <rect id="Rectangle_2527" data-name="Rectangle 2527" width="31.701" height="21.13" rx="3.6" transform="translate(152.701 253.238)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2528" data-name="Rectangle 2528" width="31.701" height="21.13" rx="3.6" transform="translate(152.701 282.82)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2529" data-name="Rectangle 2529" width="31.701" height="21.13" rx="3.6" transform="translate(152.701 312.402)" fill="#b1b1b1"/>
+      <rect id="Rectangle_2530" data-name="Rectangle 2530" width="31.701" height="21.13" rx="3.6" transform="translate(152.701 341.985)" fill="#6bd863"/>
+      <rect id="Rectangle_2531" data-name="Rectangle 2531" width="108.615" height="7.043" transform="translate(74.096 122.941)" fill="#3c3c3b"/>
+      <rect id="Rectangle_2532" data-name="Rectangle 2532" width="128.9" height="95.091" rx="9" transform="translate(63.954 137.028)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_2533" data-name="Rectangle 2533" width="54.307" height="7.043" transform="translate(113.82 201.266) rotate(-45)" fill="#fff"/>
+      <path id="Path_1041" data-name="Path 1041" d="M112.564,223.7l-19.2-19.2-4.981,4.992L102.6,223.7Z" transform="translate(11.219 -22.428)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

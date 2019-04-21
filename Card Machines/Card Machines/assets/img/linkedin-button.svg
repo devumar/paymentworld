@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.892" height="57.892" viewBox="0 0 57.892 57.892">
+  <defs>
+    <filter id="Path_835" x="0" y="0" width="57.892" height="57.892" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="linkedin-button" transform="translate(9 6)">
+    <g id="Group_34" data-name="Group 34">
+      <g id="Group_33" data-name="Group 33">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_835)">
+          <path id="Path_835-2" data-name="Path 835" d="M19.946,0A19.946,19.946,0,1,0,39.892,19.946,19.947,19.947,0,0,0,19.946,0ZM14.959,29.607H9.973V12.155h4.986ZM12.621,11.085a2.339,2.339,0,1,1,2.339-2.339A2.337,2.337,0,0,1,12.621,11.085ZM32.412,29.607H27.426V18.817c0-1.264-.362-2.149-1.915-2.149a2.991,2.991,0,0,0-3.072,2.149V29.607H17.453V12.155h4.987v1.668a8.34,8.34,0,0,1,4.987-1.666c1.616,0,4.987.967,4.987,6.812V29.607Z" transform="translate(9 6)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
