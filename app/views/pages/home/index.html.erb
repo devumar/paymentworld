@@ -10,59 +10,16 @@
 
 <title>World Payment</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="assets/bootstrap.min.css">
-<link rel="stylesheet" href="assets/font-awesome.min.css">
-<%= stylesheet_link_tag 'pages/home' %>  
-
+<%= stylesheet_link_tag 'pages/bootstrap.min.css' %>  
+<%= stylesheet_link_tag 'pages/navbar' %> 
+<%= stylesheet_link_tag 'pages/home' %>   
+<%= stylesheet_link_tag 'pages/footer' %>  
 </head>
 <body>
-
 <header id="main_home_bg">
   <div class="container_e">
-    <div class="f_pos_system_nav">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="logo_sec">
-            <a href="#">
-              <img src="/assets/home/w-main-logo.svg">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="nav_link">
-            <ul>
-              <li>
-                <a href="#">Products</a>
-              </li>
-              <li>
-                <a href="#">Developers</a>
-              </li>
-              <li>
-                <a href="#">Company</a>
-              </li>
-              <li>
-                <a href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-          <div class="nav_btn">
-            <ul>
-              <li>
-                <a class="nav_login" href="#">
-                  <img src="/assets/home/nav-login.svg">
-                  Login
-                </a>
-              </li>
-              <li>
-                <a class="nav_signup" href="#">SIGN UP ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    <%= render 'layouts/navbar' %>
     <div class="row">
-      <div class="col-xs-0 col-sm-0 col-md-1"></div>
       <div class="col-md-5">
         <div class="home_banner_text_part">
           <div class="d_banking_link">
@@ -73,14 +30,12 @@
           </div>
           <div class="home_banner_heading">
             <h3>
-                Fastest Growing Online 
-                Payment Gateway 
+               Online Payment Gateway 
             </h3>
             <p>
-                World Payments provide a unique online payment gateway in an ever-growing digital world where
-                businesses and professionals prefer transactions to be done at the click of the finger. 
+                World Payments is a unique online payment gateway that specializes in offering a digital world to the businesses and professionals. Your online transactions are just a click away. 
             </p>
-            <button class="creat_acc">CREAT ACCOUNT ></button>
+            <button class="creat_acc open_signup">CREATE ACCOUNT ></button>
             <button class="contact_sale">CONTACT SALES</button>
           </div>
           <div class="plus_icon">
@@ -95,12 +50,11 @@
         </div>
       </div>
     </div>
+    <div class="home_banner_img_phone">
+      <img src="/assets/home/home-banner-phone.svg">
+    </div>
   </div>
-  <div class="home_banner_img_phone">
-    <img src="/assets/home/home-banner-phone.svg">
-  </div>
-</header>
-
+<header>
 <section id="our_services_sec">
   <div class="container_e">
     <div class="row">
@@ -111,7 +65,7 @@
               OUR SERVICES
             </h3>
             <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sedopk quia consequuntur magni dolores eos qui rationesopl voluptatem sequi nesciunt. Neque porro quisquameo est, qui dolorem ipsum quia dolor sit amet, eopsmiep consectetur, adipisci 
+               World Payments offer a range of interactive services to facilitate all your online transactions. Our services include different online and telephone payment methods. The businesses are supported by the POS system to give control to the user. 
             </p>
             <form>
               <div class="email_f">
@@ -129,10 +83,7 @@
               <div class="ser_payment_box poTop">
                 <img src="/assets/home/ser-payment.svg">
                 <h3>Payments</h3>
-                <p>Online payment processing for internet businesses. 
-                  is a suite of payment APIs that powers commerce 
-                  for online businesses 
-                  of all sizes.
+                <p>World payments give you a variety of online payment systems that can be done through the card or on spot through card machines or even NFC payments. Payment APIs are employed to power the commerce world.
                 </p>
                 <button>Learn More --></button>
               </div>
@@ -141,7 +92,7 @@
               <div class="ser_telephone_box">
                 <img src="/assets/home/ser-telephone.svg">
                 <h3>Telephone Paymnets</h3>
-                <p>Making it easy to take credit and debit card payments over the phone with a card machine, 
+                <p>In our pursuit of providing more services, we make the process of taking credit or debit card payments via phone through card machines. 
                 </p>
                 <button>Learn More --></button>
               </div>
@@ -149,7 +100,7 @@
               <div class="ser_pos_box mTop">
                 <img src="/assets/home/ser-pos.svg">
                 <h3>POS System</h3>
-                <p>Point of Sale Software is a powefull program that enable user to have the completely control of sales. The Pos software can be operate either by keyboard or by touch screen.
+                <p>Point of Sale is a powerful Software that is interactive & simple enough to aid the user to have ample control of sales. POS offers operations both through keyboards and touch screens.
                 </p>
                 <button>Learn More --></button>
               </div>
@@ -168,11 +119,19 @@
       <div class="col-md-5">
         <div class="super_charge_text">
           <h3>
-            Supercharge your business with 
-            easy integration
+            Check out how easy our integration is!
           </h3>
           <p>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sedopk quia consequuntur magni dolores eos qui rationesopl voluptatem sequi nesciunt. Neque porro quisquameo est, 
+             Internet commerce has become easier than before with the help of our flexible and powerful tools. You know you can trust us if you intend to do any of the following:</p>
+             <ul>
+               <li class="li_style">On-demand market place</li>
+               <li class="li_style">E-commerce store</li> 
+               <li class="li_style">Subscription service</li>
+               <li class="li_style">Crowdfunding platform</li>
+             </ul>
+              
+            <p class="triple-pad-bottom">Our APIs that are designed with careful operations and workings helps you in creating state-of-the-art services for all your users.</p>
+
           </p>
           <form>
             <div class="email_f_super">
@@ -187,6 +146,9 @@
       <div class="col-md-7"></div>
     </div>
   </div>
+  <div class="animation_img">
+    <img src="/assets/home/animate.png">
+  </div>
 </section>
 
 <section id="developers_first_sec">
@@ -195,10 +157,10 @@
       <div class="col-md-12">
         <div class="developers_first_heading">
           <h3>
-              Developers First
+              Developers World
           </h3>
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio 
+            Online payment is an intricate system that is based on codes and not on finances. At World Payments, we strive to work with and around abstractions that are multi-dimensional and composable, that ensures user-friendly and flexible integrations. Use World Payments in the matter of minutes for your transactions knowing that we have eliminated all the complexities.
           </p>
         </div>
       </div>
@@ -249,7 +211,7 @@
       </div>
       <div class="col-md-7">
         <div class="ready_to_get_btn">
-          <button class="ready_c_acc">
+          <button class="ready_c_acc open_signup">
             Create Account
           </button>
           <button class="ready_c_sale">
@@ -260,169 +222,11 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-<footer id="footer_sec">
-  <div class="container_e">
-    <div class="row">
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Follow Us</h5>
-        </div>
-        <div class="social_link_f">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/home/fb.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/home/twitter-logo-button.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/home/linkedin-button.svg">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="add_link">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/home/location-pointer.svg">
-                  United Kingdom
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/home/translation.svg">
-                English
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Company</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
-            </li>
-            <li>
-              <a href="#">Terms</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Resources</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Developers</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Partner Program</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Products</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Online Payments</a>
-            </li>
-            <li>
-              <a href="#">POS System</a>
-            </li>
-            <li>
-              <a href="#">Card Machines</a>
-            </li>
-            <li>
-              <a href="#">Email Payments</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Banking <span>Beta</span></h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Fintech Banking</a>
-            </li>
-            <li>
-              <a href="#">E-Wallets</a>
-            </li>
-            <li>
-              <a href="#">Payment Card Programs</a>
-            </li>
-            <li>
-              <a href="#">Digital</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer_line_gray"></div>
-
-    <div class="copy_right_footer">
-      <ul>
-        <li>World Payments Ltd. 2019. All rights reserved.</li>
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-        <li>
-          <a href="#">Terms</a>
-        </li>
-        <li>
-          <a href="#">
-              Contact
-          </a>
-        </li>
-        
-      </ul>
-    </div>
-
-  </div>
-</footer>
-
 </body>
+<%= render 'layouts/footer' %>
 
 <script src="assets/jquery.min.js"></script>
 <script src="assets/bootstrap.min.js"></script>
+
 
 </html> 

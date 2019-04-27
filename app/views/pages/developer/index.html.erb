@@ -12,57 +12,17 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="assets/bootstrap.min.css">
 <link rel="stylesheet" href="assets/font-awesome.min.css">
-<%= stylesheet_link_tag 'pages/developer' %>  
+<%= stylesheet_link_tag 'pages/navbar' %>   
+<%= stylesheet_link_tag 'pages/developer' %>   
+<%= stylesheet_link_tag 'pages/footer' %> 
 
 </head>
 <body>
 
 <header id="main_developer_bg">
   <div class="container_e">
-    <div class="f_pos_system_nav">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="logo_sec">
-            <a href="#">
-              <img src="/assets/developer/w-main-logo.svg">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="nav_link">
-            <ul>
-              <li>
-                <a href="#">Products</a>
-              </li>
-              <li>
-                <a href="#">Developers</a>
-              </li>
-              <li>
-                <a href="#">Company</a>
-              </li>
-              <li>
-                <a href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-          <div class="nav_btn">
-            <ul>
-              <li>
-                <a class="nav_login" href="#">
-                  <img src="/assets/developer/nav-login.svg">
-                  Login
-                </a>
-              </li>
-              <li>
-                <a class="nav_signup" href="#">SIGN UP ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    <%= render 'layouts/navbar' %>
     <div class="row">
-      
       <div class="col-md-5">
         <div class="dev_banner_text_part">
           <div class="home_banner_heading">
@@ -75,7 +35,7 @@
                 World Payments provide a unique online payment gateway in an ever-growing digital world where
                 businesses and professionals prefer transactions to be done at the click of the finger. 
             </p>
-            <button class="creat_acc">CREAT ACCOUNT ></button>
+            <button class="creat_acc open_signup">CREATE ACCOUNT ></button>
             <button class="contact_sale">CONTACT SALES</button>
           </div>
           
@@ -277,173 +237,14 @@
   </div>
 </section>
 
+<%= render 'layouts/footer' %>
 
 
+<!-- Dropdown menu start -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer id="footer_sec">
-  <div class="container_e">
-    <div class="row">
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Follow Us</h5>
-        </div>
-        <div class="social_link_f">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/developer/fb.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/developer/twitter-logo-button.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/developer/linkedin-button.svg">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="add_link">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/developer/location-pointer.svg">
-                  United Kingdom
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/developer/translation.svg">
-                English
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Company</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
-            </li>
-            <li>
-              <a href="#">Terms</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Resources</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Developers</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Partner Program</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Products</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Online Payments</a>
-            </li>
-            <li>
-              <a href="#">POS System</a>
-            </li>
-            <li>
-              <a href="#">Card Machines</a>
-            </li>
-            <li>
-              <a href="#">Email Payments</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Banking <span>Beta</span></h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Fintech Banking</a>
-            </li>
-            <li>
-              <a href="#">E-Wallets</a>
-            </li>
-            <li>
-              <a href="#">Payment Card Programs</a>
-            </li>
-            <li>
-              <a href="#">Digital</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer_line_gray"></div>
-
-    <div class="copy_right_footer">
-      <ul>
-        <li>World Payments Ltd. 2019. All rights reserved.</li>
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-        <li>
-          <a href="#">Terms</a>
-        </li>
-        <li>
-          <a href="#">
-              Contact
-          </a>
-        </li>
-        
-      </ul>
-    </div>
-
-  </div>
-</footer>
 
 </body>
+
+<script src="assets/jquery.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
 </html> 

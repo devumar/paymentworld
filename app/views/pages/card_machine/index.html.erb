@@ -12,58 +12,14 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="assets/bootstrap.min.css">
 <link rel="stylesheet" href="assets/font-awesome.min.css">
-<%= stylesheet_link_tag 'pages/card_machine' %>  
+<link rel="stylesheet" href="css/mystyle.css">
+<%= stylesheet_link_tag 'pages/card_machine' %>   
+<%= stylesheet_link_tag 'pages/footer' %>   
 
 </head>
 <body>
 
-  <header id="main_header">
-    <div class="container_e">
-      <div class="nav_bar_e">
-        <div class="log_main">
-          <h1>
-            <a href="#">
-              <img src="/assets/card_machine/main-logo.svg">
-            </a>
-          </h1>
-        </div>
-        <div class="nav_link_list">
-          <ul>
-            <li>
-              <a href="#">Products <img src="/assets/card_machine/drop-arrow.svg"></a>
-            </li>
-            <li>
-              <a href="#">Developers <img src="/assets/card_machine/drop-arrow.svg"></a>
-            </li>
-            <li>
-              <a href="#">Company <img src="/assets/card_machine/drop-arrow.svg"></a>
-            </li>
-            <li>
-              <a href="#">Pricing </a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav_login">
-          <ul>
-            <li>
-              <a href="#">
-                <span>
-                  <img src="/assets/card_machine/user-icon.svg">
-                </span>
-                Login
-              </a>
-            </li>
-            <li>
-              <a class="signupbtn" href="#">Sing Up >
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="clear_e"></div>
-      </div>
-    </div>
-  </header>
+  <%= render 'layouts/navbar_simple' %>
   <section id="w_p_banner_sec">
     <div class="container_e">
       <div class="row">
@@ -76,8 +32,8 @@
                   Now more secure, smarter and easier to use - helping you save time 
                   and do more with our setup.
               </p>
-              <a href="#">
-                  Creat Account
+              <a href="javascript:;" class="open_signup">
+                  Create Account
                 <i class="material-icons creat_acc_icon">keyboard_arrow_right</i>
               </a>
             </div>
@@ -220,156 +176,12 @@
       </div>
     </div>
   </section>
-  <footer id="footer_sec">
-    <div class="container_e">
-      <div class="row">
-        <div class="col m3">
-          <div class="footer_heading">
-            <h5>Follow Us</h5>
-          </div>
-          <div class="social_link_f">
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="/assets/card_machine/fb.svg">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/assets/card_machine/twitter-logo-button.svg">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/assets/card_machine/linkedin-button.svg">
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="add_link">
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="/assets/card_machine/location-pointer.svg">
-                    United Kingdom
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/assets/card_machine/translation.svg">
-                  English
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col m3">
-          <div class="footer_heading">
-            <h5>Company</h5>
-          </div>
-          <div class="footer_link">
-            <ul>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-              <li>
-                <a href="#">Privacy</a>
-              </li>
-              <li>
-                <a href="#">Terms</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col m2">
-          <div class="footer_heading">
-            <h5>Resources</h5>
-          </div>
-          <div class="footer_link">
-            <ul>
-              <li>
-                <a href="#">Developers</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                <a href="#">Partner Program</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col m2">
-          <div class="footer_heading">
-            <h5>Products</h5>
-          </div>
-          <div class="footer_link">
-            <ul>
-              <li>
-                <a href="#">Online Payments</a>
-              </li>
-              <li>
-                <a href="#">POS System</a>
-              </li>
-              <li>
-                <a href="#">Card Machines</a>
-              </li>
-              <li>
-                <a href="#">Email Payments</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col m2">
-          <div class="footer_heading">
-            <h5>Banking <span>Beta</span></h5>
-          </div>
-          <div class="footer_link">
-            <ul>
-              <li>
-                <a href="#">Fintech Banking</a>
-              </li>
-              <li>
-                <a href="#">E-Wallets</a>
-              </li>
-              <li>
-                <a href="#">Payment Card Programs</a>
-              </li>
-              <li>
-                <a href="#">Digital</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <div class="footer_line_gray"></div>
-  
-      <div class="copy_right_footer">
-        <ul>
-          <li>World Payments Ltd. 2019. All rights reserved.</li>
-          <li>
-            <a href="#">Privacy</a>
-          </li>
-          <li>
-            <a href="#">Terms</a>
-          </li>
-          <li>
-            <a href="#">
-                Contact
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-  
-    </div>
-  </footer>
+ <%= render 'layouts/footer' %>
+
+  <!-- Dropdown menu start -->
+   
+
 </body>
+<script src="assets/jquery.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
 </html> 

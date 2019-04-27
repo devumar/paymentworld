@@ -6,10 +6,13 @@ Rails.application.routes.draw do
   get 'blog' => 'pages#blog' 
   get 'card_machine' => 'pages#card_machine' 
   get 'contact' => 'pages#contact' 
-  get 'developer' => 'pages#developer' 
+  get 'developers' => 'pages#developer' 
   get 'faq' => 'pages#faq' 
   get 'login' => 'pages#login' 
   get 'pos' => 'pages#pos' 
   get 'sign_up' => 'pages#sign_up' 
+  get 'pricing' => 'pages#pricing' 
+  get 'online_payments' => 'pages#online_payments' 
+  get 'telephone_payments' => 'pages#telephone_payments' 
 
 end

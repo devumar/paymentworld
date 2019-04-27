@@ -10,6 +10,8 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += %w( pages/home.css
 pages/about.css pages/blog.css pages/card_machine.css pages/contact.css
 pages/developer.css pages/faq.css pages/login.css pages/pos.css pages/sign_up.css
+pages/bootstrap.min.css pages/navbar.css pages/footer.css
+pages/pricing.css pages/online_payments.css pages/telephone_payments.css
  )
 
 # Precompile additional assets.

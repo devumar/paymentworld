@@ -12,61 +12,21 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="assets/bootstrap.min.css">
 <link rel="stylesheet" href="assets/font-awesome.min.css">
-<%= stylesheet_link_tag 'pages/pos' %>  
-
+<%= stylesheet_link_tag 'pages/navbar' %>   
+<%= stylesheet_link_tag 'pages/pos' %>   
+<%= stylesheet_link_tag 'pages/footer' %>
 
 </head>
 <body>
 
 <header id="main_header_bg">
   <div class="container_e">
-    <div class="f_pos_system_nav">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="logo_sec">
-            <a href="#">
-              <img src="/assets/pos/w-main-logo.svg">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="nav_link">
-            <ul>
-              <li>
-                <a href="#">Products<img class="arrow_w" src="/assets/pos/drop-arrow-w.svg"></a>
-              </li>
-              <li>
-                <a href="#">Developers<img class="arrow_w" src="/assets/pos/drop-arrow-w.svg"></a>
-              </li>
-              <li>
-                <a href="#">Company<img class="arrow_w" src="/assets/pos/drop-arrow-w.svg"></a>
-              </li>
-              <li>
-                <a href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-          <div class="nav_btn">
-            <ul>
-              <li>
-                <a class="nav_login" href="#">
-                  <img src="/assets/pos/nav-login.svg">
-                  Login
-                </a>
-              </li>
-              <li>
-                <a class="nav_signup" href="#">SIGN UP ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
+      <%= render 'layouts/navbar' %>
       <div class="row">
         <div class="col-md-12">
           <div class="w_f_pos_system_text">
-            <h3>The World's Fastest POS System</h3>
-            <p>Experience the revolution</p>
+            <h3>Things go faster with our POS System</h3>
+            <p>New thinking. Experience the revolution </p>
           </div>
           <div class="w_f_pos_system_img">
             <img src="/assets/pos/banner-inner.svg">
@@ -83,9 +43,21 @@
       <div class="col-md-12">
         <div class="creat_acc_text">
           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam voluptatem quia </p>
+          <!--  <ul>
+            <li>Fastest does the job</li>
+            <li>Fastest fits the bill</li>
+            <li>New thinking. Experience the revolution </li>
+            <li>World Payments have a POS system that ensures the running of your business as smooth as possible. It may be:</li>
+            <li>• Taking orders</li>
+            <li>• Accept payments</li>
+            <li>• Organize inventory</li>
+            <li>• Managing your team</li>
+            <li>At your fingertips, grow your customer base through World Payments </li>
+          </ul> -->
+
           <div class="create_btn">
-            <button class="c_account_btn">CREATE ACCOUNT ></button>
-            <button class="r_a_demo_btn">REQUEST A DEMO ></button>
+            <button class="c_account_btn open_signup">CREATE ACCOUNT ></button>
+            <button class="r_a_demo_btn open_signup">REQUEST A DEMO ></button>
           </div>
         </div>
 
@@ -99,8 +71,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="cloud_based_text">
-          <h3>The complete cloud-based POS System</h3>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut </p>
+          <h3>An Exhaustive Cloud-Based POS System </h3>
+          <p>A modest, smart, customized network that makes your business run easier. </p>
         </div>
 
       </div>
@@ -109,22 +81,24 @@
       <div class="col-md-4">
         <div class="cloud_based_icon_pera">
           <img src="/assets/pos/a-p-easily.svg">
-          <h3>Accept Payments Easily</h3>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus</p>
+          <h3>Easier Payment System </h3>
+          <p>You are entitled to accept all types of payments.
+          Insert your card information, take your gift card, scan checks immediately while purchasing. </p>
+
         </div>
       </div>
       <div class="col-md-4">
         <div class="cloud_based_icon_pera">
           <img src="/assets/pos/save-time.svg">
-          <h3>Save Time</h3>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus</p>
+          <h3>Pitch your clients </h3>
+          <p>Create and manage your clients’ database, set up the program and access the tools such as feedback and promotions thus ensuring interactive access to your client to win their trust and loyalty. </p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="cloud_based_icon_pera">
           <img src="/assets/pos/e-a-data.svg">
-          <h3>Easily Accessible Data</h3>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus</p>
+          <h3>Accessible Data </h3>
+          <p>Manage sales, refunds and customer’s interaction habits. Export reports for payroll, taxes, and accounting</p>
         </div>
       </div>
     </div>
@@ -139,16 +113,16 @@
     </div>
     <div class="col_md_6_text">
       <div class="customer_store_info_text">
-        <h3>Sell more to your customers <br>
-            in-store & online.</h3>
+        <h3>Take your business <br>to the next level.</h3>
+        <strong>Online and in- store</strong>
         <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam
+        World Payments is designed to work seamlessly for faster customers’ usage of the sale system. Our system works on iPad, Mac, and PC, whether you are online or offline. It connects to the modern hardware including barcode scanners, receipt printers, cash drawers. Through our immediate responses in the selling point system, your clients will find It easy and fast to purchase and sell more to your customers. 
         </p>
-        <a href="#">Sell in-store with Worldpayments POS</a>
+        <strong> In-store world payments POS </strong>
         <p>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam 
+        Connect your online store with Vend, and manage your inventory and customer profiles from your pc. Sync your products, and bring all your business operation into Vend. In a few minutes, you are in control over everything - the small and the big details. 
+
         </p>
-        <a href="#">Sell in-store with Worldpayments POS</a>
       </div>
     </div>
     <div class="clear_e"></div>
@@ -156,16 +130,13 @@
   <div class="row_e">
     <div class="col_md_6_text_l">
         <div class="customer_store_info_text">
-          <h3>Grow your business <br>
-              Know the numbers. </h3>
-          <p>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam
+          <h3>Widen your business</h3>
+            <p>
+              World payment system helps you stay ahead of your competitors by providing accurate information of transaction at every step including sales and products performance, that is accessible anytime and anywhere. Insightful reporting tools keep you informed about the details of customers, products, inventory, and staff. All this can be easily accessed with one click.
           </p>
-          <a href="#">Sell in-store with Worldpayments POS</a>
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam 
+            You can easily manage one or hundreds of stores. Build your empire by adding new stores with easy registration by one click from your home. Staff training and motivation can also be performed through our system. All the safety and security of data is guaranteed.
           </p>
-          <a href="#">Sell in-store with Worldpayments POS</a>
         </div>
     </div>
     <div class="col_md_6_img_r">
@@ -183,16 +154,11 @@
     </div>
     <div class="col_md_6_text">
       <div class="customer_store_info_text">
-        <h3>Accept any type of <br> 
-            payment</h3>
-        <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam
-        </p>
-        <a href="#">Sell in-store with Worldpayments POS</a>
-        <p>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunot explicabo. Nemo ernim ipsam 
-        </p>
-        <a href="#">Sell in-store with Worldpayments POS</a>
+        <h3>Accept any and every type of Payment</h3>
+        <p>Vend ensures that you get the payments easily. Set up custom buttons for the cash, cards, gift cards, checks or any other type of payment that is your requirement. Payments on Layaway sales, partial payments, deposits or account – the choice is yours.</p>
+        <p>Accept credit or debit cards, mobile payments through phones or card machines. You can easily connect to PayPal or Worldpay or Square (to name the few) to your Vend POS system and you are good to go.</p>
+        <p>POS can be easily understood, train your staff in a few minutes, keep them motivated all the time. Then relax know that with POS it’s always safe, secure, and available anytime you need it </p>
+
       </div>
     </div>
     <div class="clear_e"></div>
@@ -203,8 +169,8 @@
 <section id="get_ur_w_pos_system_sec">
   <div class="container_e">
     <div class="get_ur_w_pos_system_head">
-      <h3>Get your Worldpayments POS System</h3>
-      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium doloremque eopsloi </p>
+      <h3>Get World Payments POS System </h3>
+      <p>Set up your world Payments POS system sync all of the devices and applications for your business, you can easily add more devices or applications. You can order POS system online or contact us, we will be happy to assist you to plan your business. </p>
       <button>Contact Sales</button>
     </div>
   </div>
@@ -215,13 +181,13 @@
 <section id="about_card_sec">
   <div class="container_e">
     <div class="about_card_heading">
-      <h3>Learn more about card machines</h3>
+      <h3>Card Machines: for your business transaction</h3>
     </div>
     <div class="row mb_20">
       <div class="col-md-6">
         <div class="about_card_gray">
-          <h4>How to accept credit card payments online</h4>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+          <h4>Customized Machines</h4>
+          <p>World payments pride in understanding the intricacies of your business and its unique requirements. Therefore we make sure that you receive proper customer support services for the credit card processing and other needs.</p>
           <a href="#">
               Learn More ->
           </a>
@@ -229,8 +195,8 @@
       </div>
       <div class="col-md-6">
           <div class="about_card_gray">
-            <h4>How to accept credit card payments online</h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+            <h4>24/7 Support Service</h4>
+            <p>Our professional team is always at your service to help, support and provide solutions to your coding or any other issue. Please feel free to contact Support or our Sales Team.</p>
             <a href="#">
                 Learn More ->
             </a>
@@ -240,8 +206,8 @@
     <div class="row">
         <div class="col-md-6">
           <div class="about_card_gray">
-            <h4>How to accept credit card payments online</h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+            <h4>Advanced Terminal</h4>
+            <p>Our highly developed POS system and Advance Terminal allows the growth of your business intricacies through ease of access. Start accepting online and in-store payments by joining us today.</p>
             <a href="#">
                 Learn More ->
             </a>
@@ -249,8 +215,8 @@
         </div>
         <div class="col-md-6">
             <div class="about_card_gray">
-              <h4>How to accept credit card payments online</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+              <h4>Simple Pricing</h4>
+              <p>There are no hidden charges. Our pricing system is simple and transparent. You will always be aware of every transaction detail.</p>
               <a href="#">
                   Learn More ->
               </a>
@@ -259,158 +225,15 @@
     </div>
   </div>
 </section>
-<footer id="footer_sec">
-  <div class="container_e">
-    <div class="row">
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Follow Us</h5>
-        </div>
-        <div class="social_link_f">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/pos/fb.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/pos/twitter-logo-button.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/pos/linkedin-button.svg">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="add_link">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/pos/location-pointer.svg">
-                  United Kingdom
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/pos/translation.svg">
-                English
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Company</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
-            </li>
-            <li>
-              <a href="#">Terms</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Resources</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Developers</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Partner Program</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Products</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Online Payments</a>
-            </li>
-            <li>
-              <a href="#">POS System</a>
-            </li>
-            <li>
-              <a href="#">Card Machines</a>
-            </li>
-            <li>
-              <a href="#">Email Payments</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Banking <span>Beta</span></h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Fintech Banking</a>
-            </li>
-            <li>
-              <a href="#">E-Wallets</a>
-            </li>
-            <li>
-              <a href="#">Payment Card Programs</a>
-            </li>
-            <li>
-              <a href="#">Digital</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
-    <div class="footer_line_gray"></div>
 
-    <div class="copy_right_footer">
-      <ul>
-        <li>World Payments Ltd. 2019. All rights reserved.</li>
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-        <li>
-          <a href="#">Terms</a>
-        </li>
-        <li>
-          <a href="#">
-              Contact
-          </a>
-        </li>
-        
-      </ul>
-    </div>
 
-  </div>
-</footer>
+
+<%= render 'layouts/footer' %>
+
+
 
 </body>
-<script src="assets/materialize.min.js"></script>
+<script src="assets/jquery.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
 </html> 

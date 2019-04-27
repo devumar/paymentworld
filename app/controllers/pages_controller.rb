@@ -29,5 +29,14 @@ class PagesController < ApplicationController
   end
   def sign_up
     render 'pages/sign_up/index' 
-  end      
+  end
+  def pricing
+    render 'pages/pricing/index' 
+  end
+  def online_payments
+    render 'pages/online_payments/index' 
+  end 
+  def telephone_payments
+    render 'pages/telephone_payments/index' 
+  end        
 end  

@@ -12,13 +12,35 @@ body{
   margin: 0;
   padding: 0;
 }
+.center_modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#login_sec {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+.close-popup {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
 .login_bg{
   background-color: #F6F7FA;
 }
-.container_e{
+/*.container_e{
   width: 1265px;
   margin: 0 auto;
-}
+}*/
 .clear_e{
   clear: both;
 }
