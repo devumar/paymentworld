@@ -9,8 +9,11 @@ $colore-white: #fff;
 }
 
 .nav_link, .home_banner_img_phone, .nav_btn{
-  position: relative;
   z-index: 99
+}
+.f_pos_system_nav {
+    position: relative;
+    z-index: 999;
 }
 .social_link_f {
   ul{
