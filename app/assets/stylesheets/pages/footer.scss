@@ -7,7 +7,13 @@ $colore-white: #fff;
   padding-top: 70px;
   padding-bottom: 40px;
 }
-
+.beta{
+  position: relative;
+  top: -5px;
+  color: #F905F5;
+  font-size: 13px;
+  right: 0px;
+}
 .nav_link, .home_banner_img_phone, .nav_btn{
   z-index: 99
 }
@@ -275,11 +281,6 @@ $colore-white: #fff;
 .footer_link li {
   padding-bottom: 5px;
   padding-top: 5px;
-}
-.tab_content_bg {
-  background-image: none;
-  min-height: auto;
-  height: auto;
 }
 .tab_list_e li {
   display: block;

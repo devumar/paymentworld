@@ -500,6 +500,9 @@ body{
 .only_mob{
   display: none;
 }
+.mobile{
+  display: none;
+}
 
 /* Extra large devices (large laptops) */
 @media (min-width: 1024px) and (max-width: 1400px) {
@@ -513,6 +516,12 @@ body{
 }
  /* Mobile devices (phones) */
 @media only screen and (max-width: 767px)  {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
   .nav_link {
     display: none;
   }
@@ -679,6 +688,8 @@ body{
 #get_start_sec {
   padding: 50px 0;
 }
-
+#how_it_work_sec {
+  padding: 0px 0;
+}
 
 }

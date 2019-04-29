@@ -706,6 +706,9 @@ body{
   display: none;
 }
 
+.gray_sec_pera p {
+  font-size: 32px;
+}
 /* Extra large devices (large laptops) */
 @media (min-width: 1024px) and (max-width: 1400px) {
 
@@ -718,6 +721,9 @@ body{
 }
  /* Mobile devices (phones) */
 @media only screen and (max-width: 767px)  {
+  .desktop{
+    display: none;
+  }
   .nav_link,.nav_login,.nav_btn  {
     display: none;
   }
@@ -911,7 +917,53 @@ body{
     
     }
   }
-
-
-
+  .merchant_text_icon {
+    display: inline-block;
+    align-items: center;
+  }
+  .merchant_icon {
+    display: inline-block;
+  }
+  .merchant_icon img{
+    vertical-align: middle;
+  }
+  .merchant_text {
+    display: inline-block;
+    width: 62%;
+    vertical-align: middle;
+  }
+  .merchant_text p {
+    padding-top: 10px;
+  }
+  .about_banner_heading h3 {
+    font-size: 31px;
+    color: white;
+  }
+  #main_header_bg {
+    top: 0;
+   background-image: none; 
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    background: linear-gradient(384deg,#509df2 12%,#F905F5 84%);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    min-height: 450px;
+  }
+  .gray_sec_pera p {
+    font-size: 18px;
+  }
+  .mission_heading li {
+    font-size: 18px;
+  }
+  #mission_statement_sec {
+    padding-bottom: 50px;
+  }
+  .our_vision_heading h3 {
+    font-size: 39px;
+    padding-bottom: 45px;
+  }
 }

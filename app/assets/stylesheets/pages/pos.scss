@@ -521,8 +521,15 @@ top: 100px;
 .only_mob{
   display: none;
 }
-
-
+.get_ur_w_pos_system_head p {
+  width: 90%;
+}
+.mobile{
+  display: none;
+}
+.desktop{
+  display: block;
+}
 
 
 
@@ -538,6 +545,12 @@ top: 100px;
 }
  /* Mobile devices (phones) */
 @media only screen and (max-width: 767px)  {
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
+  }
   .nav_link,.nav_login,.nav_btn  {
     display: none;
   }
@@ -742,5 +755,34 @@ top: 100px;
   }
   .creat_acc_text .c_account_btn {
     margin: 15px;
+  }
+  .creat_acc_text {
+    padding: 0px 0;
+    position: absolute;
+    top: -200px;
+  }
+  .w_f_pos_system_img {
+    text-align: center;
+    position: relative;
+    top: 140px;
+  }
+  #main_header_bg {
+    min-height: 720px;
+  }
+
+  .cloud_based_icon_pera {
+    padding-top: 15px;
+  }
+  .customer_store_info_img {
+    text-align: center;
+  }
+  .customer_store_info_img.p_l40 img {
+    max-width: 75%;
+  }
+  .customer_store_info_text{
+    text-align: center;
+  }
+  .customer_store_info_text {
+    text-align: center;
   }
 }

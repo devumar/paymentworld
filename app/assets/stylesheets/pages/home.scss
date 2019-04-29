@@ -15,7 +15,6 @@ body{
 #main_home_bg {
   background-image: asset-url("home/home-bg-banner.svg");
   min-height: 770px;
-  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -28,6 +27,23 @@ body{
   right: 0;
   top: -350px;
   background-repeat: no-repeat;
+}
+.home_banner_img_phone img{
+  width: 700px;
+  position: relative;
+  top: 60px;
+  right: -45px;
+}
+.plus_icon img{
+  width: 75px;
+  position: relative;
+  right: -120px;
+  top: -52px;
+}
+.block_img {
+  position: relative;
+  right: 40px;
+  top: 50px;
 }
 
 .home_banner_text_part{
@@ -405,11 +421,7 @@ body{
   }
 }
 
-.tab_content_bg{
-  background-image: asset-url("home/home-tab-bg.svg");
-  background-repeat: no-repeat;
-  min-height: 430px;
-}
+
 .nav-tabs {
   border-bottom: 1px solid transparent;
 }
@@ -448,8 +460,54 @@ body{
 .tab_list_e ul li.active {
   background-color: #fff;
 }
+.mobile{
+  display: none;
+}
+ .tab_content_bg {
+  background-image: asset-url('developer/dev-banner-right.svg');
+  min-height: 430px;
+  background-size: cover;
+}
+.tab-content {
+  display: none;
+}
+.developers_first_heading p {
+  width: 90%;
+  margin: 15px auto;
+  color: #b8b8b8;
+}
 
-
+@media only screen and (max-width: 767px)  {
+  .animation_img img {
+    position: relative;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .get_start{
+    text-align: center;
+  }
+  .home_banner_heading .creat_acc, .home_banner_heading .contact_sale{
+    margin-bottom: 30px;
+  }
+  .get_start button{
+    float: unset;
+  }
+  .services_heading p{
+    text-align: left;
+  }
+  .developers_first_heading p{
+    text-align: justify;
+  }
+  .tab_content_bg {
+    background-repeat: no-repeat;
+    min-height: 430px;
+    background-size: contain;
+  }
+}
 
 
 

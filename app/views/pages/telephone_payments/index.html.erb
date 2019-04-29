@@ -1,1 +1,299 @@
-index.html.erb
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Telephone Payment</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/font-awesome.min.css">
+<%= stylesheet_link_tag "pages/telephone_payments" %>
+<%= stylesheet_link_tag "pages/footer" %>
+</head>
+<body>
+<header id="telephone_payment_bg">
+  <div class="container_e">
+    <%= render 'layouts/navbar' %>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="telephone_banner_text_part">
+          <div class="telephone_banner_heading">
+            <h3>
+              Accepting Telephone Payments
+            </h3>
+            <p>
+             World Payments pride in making your business life easier by offering safe and easier-to-use acceptance of telephone payments through our interactive setup.
+            </p>
+            <button class="creat_acc">CREAT ACCOUNT ></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 phone_routate">
+        <div class="telephone_banner_img_part">
+          <img src="/assets/telephone_payments/Telephone Payments banner image.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section id="your_virtul_sec">
+  <div class="container_e">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="your_virtul_heading">
+          <h3>
+            Virtual Terminal
+          </h3>
+          <p>
+            Covering more than 200 markets, we accept all major credit and debit cards. The payments are done within minutes and you are free to spend the money online or use it through bank withdrawal.
+          </p>
+          <div class="card_sec">
+            <ul>
+              <li>
+                <a href="">
+                  <img src="/assets/telephone_payments/card-1.svg">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="/assets/telephone_payments/card-2.svg">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="/assets/telephone_payments/card-3.svg">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="/assets/telephone_payments/card-4.svg">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="/assets/telephone_payments/Wepay_Logo_Update_2014.svg">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="person_chose_payment">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="p_c_payment_heading">
+          <h3>Why Choose World Payments?</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="person_sub_heading">
+          <h3>Easier Set up</h3>
+          <p>Simply join World Payments set-up accounts without any hassle</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="person_sub_heading">
+          <h3>Protection against Fraud</h3>
+          <p>Payments are accepted securely through a built-in system for redundancy and security.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="person_sub_heading">
+          <h3>24/7 Support </h3>
+          <p>Our support and service are always at your beck and call. We are always glad to help and guide you with the codes or any other issues.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="person_sub_heading">
+          <h3>PCI compliant</h3>
+          <p>World Payments is certified and has acquired global license to ensure higher industry standards.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="how_payment_work_sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="how_payment_work_heading">
+            <h3>The functioning of Telephone Payments?</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="h_pay_sub_heading">
+            <div class="according_part_tow">
+              <button type="button" class="according_btn_e">
+                Set up the Account
+              </button>
+              <div id="custom_collapes1" class="collapse custom_collapes_pera show">
+                <p>
+                  Once you have set up an account with World Payments and acquire a virtual terminal, you are good to go.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="h_pay_sub_heading">
+              <div class="according_part_tow">
+                <button type="button" class="according_btn_e">
+                  Payment
+                </button>
+                <div id="custom_collapes2" class="collapse custom_collapes_pera show">
+                  <p>
+                    Payment by the customer is done on the phone.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="h_pay_sub_heading">
+            <div class="according_part_tow">
+              <button type="button" class="according_btn_e" >
+                Invoice 
+              </button>
+              <div id="custom_collapes3" class="collapse custom_collapes_pera show">
+                <p>
+                 World Payments virtual terminal develops an invoice to be sent to the customer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="h_pay_sub_heading">
+            <div class="according_part_tow">
+              <button type="button" class="according_btn_e" >
+                Receive Money 
+              </button>
+              <div id="custom_collapes4" class="collapse custom_collapes_pera show">
+                <p>
+                  It is as simple as that. Follow these steps and you receive your money.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="h_pay_sub_image">
+            <img src="/assets/telephone_payments/telephone-payment-work.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="why_use_virtual_sec">
+  <div class="container">
+    <div class="w_use_virtual_heading">
+      <h3>Virtual terminal – Benefits</h3>
+      <p>World Payments virtual terminal gives you easier and quick access without getting lost in technical jargon. Our user-friendly interface is designed, keeping in mind the requirements and usage of customers. Your card machine will do all the tasks needed giving you freedom and relaxation.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="w_use_virtual_icon">
+          <img src="/assets/telephone_payments/w_use_icon-1.svg">
+          <h3>History of Payments</h3>
+          <p>Real-time reports of payment history help to keep a track of every payment.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="w_use_virtual_icon">
+          <img src="/assets/telephone_payments/w_use_icon-2.svg">
+          <h3>Protection of Payments</h3>
+          <p>A highly developed system of risk management for a state-of-the-art protection system against fraud.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="w_use_virtual_icon">
+          <img src="/assets/telephone_payments/w_use_icon-3.svg">
+          <h3>System Access</h3>
+          <p>Our web interface is secure enough to make payments over phone easily.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about_card_sec">
+    <div class="container_e">
+      <div class="about_card_heading">
+        <h3>Learn more about telephone payments</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about_card_gray">
+            <h4>How to accept payments by telephone</h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+            <a href="#">
+                Learn More ->
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="about_card_gray">
+              <h4>How to use virtual terminal</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+              <a href="#">
+                  Learn More ->
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="j_w_l_payment">
+    <div class="container_e">
+      <div class="j_w_l_payment_heading">
+        <h3>Reasons to join World Payments</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="j_w_l_text_img">
+            <img src="/assets/telephone_payments/05 Support Service.svg">
+            <h4>24/7 Support Service</h4>
+            <p>We are more than delighted with your online transactions woes. Our support and service team is always happy to help.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="j_w_l_text_img">
+              <img src="/assets/telephone_payments/06 Advance Terminal.svg">
+              <h4>Advanced Terminal</h4>
+              <p>Our POS system and advance terminal aids in the growth of your online business</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="j_w_l_text_img">
+            <img src="/assets/telephone_payments/07 Check.svg">
+            <h4>Simple Pricing</h4>
+            <p>A simple and transparent system of pricing without any hidden charges</p>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+<%= render 'layouts/footer' %>
+
+
+</body>
+
+</html> 
