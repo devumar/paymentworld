@@ -1,1 +1,202 @@
-index.html.erb
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Online Payments</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/font-awesome.min.css">
+<%= stylesheet_link_tag 'pages/navbar' %>   
+<%= stylesheet_link_tag 'pages/footer' %>
+<%= stylesheet_link_tag 'pages/online_payments' %>   
+
+</head>
+<body>
+<header id="online_payment_bg">
+  <div class="container_e">
+    <%= render 'layouts/navbar' %>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="online_banner_text_part">
+          <div class="online_banner_heading">
+            <h3>
+              World Payments online Payment System 
+            </h3>
+            <p>
+              Now you can use our platform for secure, safer, quicker, and most importantly easier-to-use setup for all your online business requirements.
+            </p>
+            <button class="creat_acc">CREATE ACCOUNT ></button>
+            <div class="online_banner_img">
+              <img src="/assets/online_payments/online-buble.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section id="ultimate_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ultimate_heading">
+          <h3>An Exemplary Checkout Experience</h3>
+          <h4>World Payments is the answer to your every e-commerce transaction concerns</h4>
+          <img src="/assets/online_payments/Pay Online.svg">
+          <p>We offer you services concerning varied payment types whether you are selling online or using card machines on the floor. Invoices can also be sent to receive payments through credit or debit card.</p>
+          <button class="open_signup"> CREATE ACCOUNT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="our_online_services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="online_services_heading">
+          <h3>Online Services</h3>
+          <p>
+          The unique benefits of our online services assist you to develop a hosted cart or simply integrate the API interface within your own website. You have the freedom to choose what works for you, with the following options.              
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="our_online_services_tab_link">
+            <ul class="nav nav-pills">
+              <li class="active_tab"><a data-toggle="pill" href="#home">Payment Gateway</a></li>
+              <li><a data-toggle="pill" href="#menu1">Merchant Account</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active show">
+          <div class="row">
+            <div class="col-md-6">
+                <div class="online_tab_text">
+                  <p>
+                   Merchant accounts are an effective way out for the businesses that accept payments through cards. Your Merchant Accounts at World Payments offer you different payment products for card transactions.
+                  </p>
+                  <p>Your Merchant Account can be established on a daily, weekly or monthly basis. You have the freedom to use the funding cycle that best suits your business.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="online_tab_img">
+                <img src="/assets/online_payments/tab-1.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu1" class="tab-pane fade in">
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="online_tab_text">
+                    <p>World Payments have a payment Gateway that offers payments between a customer and a merchant. The Payment Gateway actually encrypts the card details of a user when a customer uses the site for any transaction. Firstly, the details of the card are appropriated to the relevant banks and then the required card schemes. The collected information is sent back to the merchant and the customer about the payment information</p>
+                    <button class="open_signup">CREATE ACCOUNT ></button>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <div class="online_tab_img">
+                  <img src="/assets/online_payments/tab-2.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="integration_sec">
+  <div class="container">
+    <div class="row integration_sec_row">
+      <div class="col-md-6">
+        <div class="animation_img">
+          <img src="/assets/online_payments/animate-img.svg">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="integration_heading">
+          <h3>
+            Integration Network
+          </h3>
+          <p>World Payments’ integration network offers the best method for online business. We are partnered with many experts and the solution providers in the industry. So you can trust us when we say that we have the solutions for your business be it in the marketplace or online store. Depending on your customers’ preferences, you can develop and accept payment system.</p>
+          <p>It is only a matter of minutes to set up commerce to your platform. World Payments will aid you in setting accounts for your sellers, which is completely interactive and user-friendly.</p>
+          <button>See Full List</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="about_card_sec">
+    <div class="container_e">
+      <div class="about_card_heading">
+        <h3>Read about online payments from our blog</h3>
+      </div>
+      <div class="row mb_row">
+        <div class="col-md-6">
+          <div class="about_card_gray">
+            <h4>How to accept credit card payments online</h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+            <a href="#">
+                Learn More ->
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="about_card_gray">
+              <h4>How to accept credit card payments online</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+              <a href="#">
+                  Learn More ->
+              </a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+            <div class="about_card_gray">
+              <h4>How to accept credit card payments online</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+              <a href="#">
+                  Learn More ->
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+              <div class="about_card_gray">
+                <h4>How to accept credit card payments online</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis unde omnis istpoe natus error sit voluptatem accusantium </p>
+                <a href="#">
+                    Learn More ->
+                </a>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+  <%= render 'layouts/footer' %>
+</body>
+
+</html> 
