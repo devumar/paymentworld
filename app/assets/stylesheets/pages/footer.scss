@@ -1,6 +1,27 @@
 $font-Poppins: 'Poppins';
 $font-Raleway: 'Raleway', sans-serif;
 $colore-white: #fff;
+.product_heading{
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #8898aa;
+}
+.modal-header {
+  border: none;
+  align-items: baseline;
+  padding: 1rem 1rem 0rem 1rem;
+}
+.other_icons{
+   border-top: 2px solid #f6f9fc;
+   padding: 20px;
+}
+.menu_items a{
+   color: #6772e5; 
+   padding: 10px 0px;
+}
+.menu_items{
+   padding: 5px;
+}
 
 #footer_sec {
   background-color: #F6F7FA;

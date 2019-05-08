@@ -18,6 +18,7 @@ body{
   background-repeat: no-repeat;
   position: relative;
 }
+
 #main_home_bg::after{
   content: "";
   background-image: asset-url("home/home-after.svg");
@@ -506,6 +507,192 @@ body{
     background-repeat: no-repeat;
     min-height: 430px;
     background-size: contain;
+  }
+  #main_home_bg {
+    background-image: asset-url("home/home-mobile.svg");
+    background-size: contain;
+  }
+  .d_banking_link a {
+    font-size: 14px;
+  }
+  .d_banking_link {
+    text-align: center;
+  }
+  .home_banner_heading {
+    padding-top: 55px;
+  }
+  .home_banner_heading h3 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 35px;
+    text-align: center;
+  }
+  .home_banner_heading p {
+     font-weight: normal; 
+    font-size: 14px;
+    text-align: center;
+  }
+  .home_banner_heading .creat_acc, .home_banner_heading .contact_sale {
+    margin-top: 0px;
+    margin-bottom: 85px !important;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px !important;
+  }
+  #main_home_bg .home_banner_text_part {
+    padding-top: 35px;
+  }
+  .our_services {
+    text-align: center;
+  }
+  .pink_bar {
+    width: 13.3%;
+    display: inline-block;
+    background-color: #F905F5;
+    margin: 0px 5px;
+    height: 5px;
+  }
+  .our_services h3{
+    line-height: 10px;
+    font-family: 'Poppins';
+  }
+  .our_services_div {
+    margin-top: 20px;
+  }
+  .our_services p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .services_panel{
+    width: 270px;
+    height: 370px;
+    padding-top: 50px;
+    margin: 41px auto;
+    text-align: center;
+    background-image: asset-url('home/panel_simple.svg')
+  }
+  .services_panel h3 {
+    font-size: 20px;
+  }
+  .services_panel img{
+    width: 85px;
+    margin: 0 auto;
+  }
+  .services_panel p{
+    font-size: 12px;
+    padding: 15px;
+  }
+  .blue_bar {
+    background-color: #17C9F2;
+    width: 15%;
+    height: 5px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+  }
+  .services_panel span{
+    font-size: 12px;
+  }
+  .service_list{
+    width: 100%;
+  }
+  .slick-arrow{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 375px)  {
+  .d_banking_link a {
+    font-size: 12px;
+  }
+  .d_banking_link {
+    text-align: center;
+  }
+  .home_banner_heading {
+    padding-top: 30px;
+  }
+  .home_banner_heading h3 {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 35px;
+    text-align: center;
+  }
+  .home_banner_heading p {
+     font-weight: normal; 
+    font-size: 12px;
+    text-align: center;
+  }
+  .home_banner_heading .creat_acc, .home_banner_heading .contact_sale {
+    font-size: 12px !important;
+  }
+  .home_banner_heading .creat_acc, .home_banner_heading .contact_sale {
+    margin-top: 0px;
+    margin-bottom: 85px !important;
+    height: 34px;
+    line-height: 34px;
+  }
+  #main_home_bg .home_banner_text_part {
+    padding-top: 35px;
+  }
+  .our_services {
+    text-align: center;
+  }
+  .pink_bar {
+    width: 13.3%;
+    display: inline-block;
+    background-color: #F905F5;
+    margin: 0px 5px;
+    height: 5px;
+  }
+  .our_services h3{
+    line-height: 10px;
+    font-family: 'Poppins';
+  }
+  .our_services_div {
+    margin-top: 20px;
+  }
+  .our_services p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .services_panel{
+    width: 270px;
+    height: 370px;
+    padding-top: 50px;
+    margin: 41px auto;
+    text-align: center;
+    background-image: asset-url('home/panel_simple.svg')
+  }
+  .services_panel h3 {
+    font-size: 20px;
+  }
+  .services_panel img{
+    width: 85px;
+    margin: 0 auto;
+  }
+  .services_panel p{
+    font-size: 12px;
+    padding: 15px;
+  }
+  .blue_bar {
+    background-color: #17C9F2;
+    width: 15%;
+    height: 5px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+  }
+  .services_panel span{
+    font-size: 12px;
+  }
+  .service_list{
+    width: 100%;
+  }
+  .slick-arrow{
+    display: none !important;
   }
 }
 

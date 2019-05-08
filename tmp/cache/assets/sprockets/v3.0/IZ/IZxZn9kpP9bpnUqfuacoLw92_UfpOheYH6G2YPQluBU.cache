@@ -1,0 +1,39 @@
+{:uriI"‰file://app/assets/slick-1.8.1/slick.jquery.json?type=application/json&id=bd2cab1194b91614ddbe68ad705dfa14b8197e5d5bdf7576ec9592eacd94201c:ET:load_pathI"app/assets/slick-1.8.1;T:filenameI"-app/assets/slick-1.8.1/slick.jquery.json;T:	nameI"slick.jquery;T:logical_pathI"slick.jquery.json;T:content_typeI"application/json;T:sourceI"Ä{
+    "name": "slick",
+    "title": "slick",
+    "description": "A jQuery responsive touch carousel",
+    "keywords": [
+        "responsive",
+        "slider",
+        "carousel",
+        "touch",
+        "mobile"
+    ],
+    "version": "1.8.0",
+    "author": {
+        "name": "Ken Wheeler",
+        "url": "http://kenwheeler.github.io"
+    },
+    "maintainers": [{
+        "name": "Ken Wheeler",
+        "email": "dubmediagroup@gmail.com",
+        "url": "http://www.dubmediagroup.com"
+    }],
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/kenwheeler/slick/blob/master/LICENSE"
+    }],
+    "demo": "http://kenwheeler.github.io/slick/",
+    "bugs": "https://github.com/kenwheeler/slick/issues",
+    "homepage": "https://github.com/kenwheeler/slick/",
+    "docs": "https://github.com/kenwheeler/slick/",
+    "download": "https://github.com/kenwheeler/slick/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI";file-digest://app/assets/slick-1.8.1/slick.jquery.json;TTF:charsetI"
+utf-8;F:digest"%©Ş'å¬gµxË€âšˆ¦ƒÙíHSù,s"‹5æ:lengthiÄ:dependencies_digest"%W¨1q¥”Ñ;F»c³å‡SËÉ©dZ~ÿVFĞ¾P7&S:idI"Ebd2cab1194b91614ddbe68ad705dfa14b8197e5d5bdf7576ec9592eacd94201c;F:
+mtimel+è$ÓY
