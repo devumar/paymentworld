@@ -318,4 +318,25 @@ body{
     top: 40px;
     right: 20px;
   }
+  .center_modal {
+    position: relative !important;
+    top: 55%;
+  }
+
+}
+@media only screen and (max-width: 375px)  {
+  .close-popup {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  .container_signup {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .checkbox_forget_signup {
+    text-align: left;
+    width: 90%;
+  }
+
 }
