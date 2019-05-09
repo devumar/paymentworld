@@ -285,4 +285,37 @@ body{
       font-size: 12px;
     }
   }
+  .container_signup {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .signup_right_part {
+    width: 100%;
+  }
+  .signup_right_inner {
+    position: relative;
+    top: unset;
+    left: 0;
+    right: 0;
+    -webkit-transform: unset;
+    transform: unset;
+  }
+  .signup_left_part{
+    display: none;
+  }
+  .signup_right_inner input {
+    width: 90%;
+  }
+  .signup_right_inner h3 {
+    font-size: 34px;
+    padding: 15px;
+  }
+  .checkbox_forget_signup {
+    margin: 0px 15px 20px 15px;
+  }
+  .close-popup {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
 }

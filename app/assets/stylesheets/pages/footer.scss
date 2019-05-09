@@ -22,7 +22,14 @@ $colore-white: #fff;
 .menu_items{
    padding: 5px;
 }
-
+.drop_down{
+  background: #F6F7FA;
+  border:none;
+  color: #185B6D;
+  width: 185px;
+  height: 30px;
+ -webkit-appearance: none;
+}
 #footer_sec {
   background-color: #F6F7FA;
   padding-top: 70px;
@@ -137,7 +144,9 @@ $colore-white: #fff;
   }
 }
 
-
+.add_link img{
+  vertical-align: unset;
+}
 
 
 .nav_link,.home_banner_img_phone,.nav_btn{
@@ -145,6 +154,9 @@ $colore-white: #fff;
 }
 .only_mob{
   display: none;
+}
+select::-ms-expand {
+    display: none;
 }
 @media only screen and (max-width: 767px)  {
   .nav_link {

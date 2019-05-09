@@ -259,4 +259,15 @@ body{
       font-size: 12px;
     }
   }
+
+  .login_left_part {
+    display: none;
+  }
+  .container_login{
+    width: 90% !important;
+  }
+  .login_model{
+    position: relative !important;
+  }
+
 }
