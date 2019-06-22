@@ -17,8 +17,8 @@ body{
   min-height: 770px;
   background-repeat: no-repeat;
   position: relative;
+  background-size: cover;
 }
-
 #main_home_bg::after{
   content: "";
   background-image: asset-url("home/home-after.svg");
@@ -28,12 +28,14 @@ body{
   right: 0;
   top: -350px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .home_banner_img_phone img{
   width: 620px;
   position: relative;
-  top: 108px;
-  right: 2px;
+  top: 70px;
+  right: -109px;
 }
 .plus_icon img{
   width: 75px;

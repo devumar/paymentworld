@@ -710,8 +710,10 @@ body{
   font-size: 32px;
 }
 /* Extra large devices (large laptops) */
-@media (min-width: 1024px) and (max-width: 1400px) {
-
+@media (min-width: 1300px) and (max-width: 2800px) {
+#main_header_bg {
+    min-height: 1015px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
