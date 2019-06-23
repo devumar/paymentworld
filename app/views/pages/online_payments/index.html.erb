@@ -75,8 +75,8 @@
       <div class="col-md-6">
         <div class="our_online_services_tab_link">
             <ul class="nav nav-pills">
-              <li class="active_tab"><a data-toggle="pill" href="#home">Payment Gateway</a></li>
-              <li><a data-toggle="pill" href="#menu1">Merchant Account</a></li>
+              <li class="active_tab tab-panels"><a data-toggle="pill" href="#home">Payment Gateway</a></li>
+              <li class="tab-panels"><a data-toggle="pill" href="#menu1">Merchant Account</a></li>
             </ul>
         </div>
       </div>
@@ -87,10 +87,8 @@
           <div class="row">
             <div class="col-md-6">
                 <div class="online_tab_text">
-                  <p>
-                   Merchant accounts are an effective way out for the businesses that accept payments through cards. Your Merchant Accounts at World Payments offer you different payment products for card transactions.
-                  </p>
-                  <p>Your Merchant Account can be established on a daily, weekly or monthly basis. You have the freedom to use the funding cycle that best suits your business.</p>
+                   <p>World Payments have a payment Gateway that offers payments between a customer and a merchant. The Payment Gateway actually encrypts the card details of a user when a customer uses the site for any transaction. Firstly, the details of the card are appropriated to the relevant banks and then the required card schemes. The collected information is sent back to the merchant and the customer about the payment information</p>
+                    <button class="open_signup">CREATE ACCOUNT ></button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -104,7 +102,11 @@
             <div class="row">
               <div class="col-md-6">
                   <div class="online_tab_text">
-                    <p>World Payments have a payment Gateway that offers payments between a customer and a merchant. The Payment Gateway actually encrypts the card details of a user when a customer uses the site for any transaction. Firstly, the details of the card are appropriated to the relevant banks and then the required card schemes. The collected information is sent back to the merchant and the customer about the payment information</p>
+                    <p>
+                     Merchant accounts are an effective way out for the businesses that accept payments through cards. Your Merchant Accounts at World Payments offer you different payment products for card transactions.
+                    </p>
+                    <p>Your Merchant Account can be established on a daily, weekly or monthly basis. You have the freedom to use the funding cycle that best suits your business.
+                    </p>
                     <button class="open_signup">CREATE ACCOUNT ></button>
                   </div>
               </div>
@@ -198,5 +200,10 @@
 </section>
   <%= render 'layouts/footer' %>
 </body>
-
 </html> 
+<script type="text/javascript">
+  $('.tab-panels').click(function(e){
+    $(".tab-panels").removeClass("active_tab");
+    this.classList += " active_tab"
+  });
+</script>
