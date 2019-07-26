@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1370" height="766" viewBox="0 0 1370 766">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.097" y1="-0.123" x2="-0.096" y2="1.119" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f905f5"/>
+      <stop offset="1" stop-color="#17c9f2"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1370" height="766"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1370" height="766" fill="#fff"/>
+    <path id="Subtraction_32" data-name="Subtraction 32" d="M-1539.768-87H-1759V-299.806c14.482,7.06,28.779,14.932,42.494,23.4a491.275,491.275,0,0,1,101,82.762A490.294,490.294,0,0,1-1539.769-87Z" transform="translate(1759 640)" fill="rgba(255,255,255,0.31)"/>
+    <circle id="Ellipse_2736" data-name="Ellipse 2736" cx="23.5" cy="23.5" r="23.5" transform="translate(258 36)" fill="rgba(255,255,255,0.23)"/>
+    <rect id="Rectangle_2399" data-name="Rectangle 2399" width="53" height="10" rx="5" transform="matrix(0.799, -0.602, 0.602, 0.799, 233.392, 41.285)" fill="rgba(255,255,255,0.24)"/>
+    <path id="Union_46" data-name="Union 46" d="M18.436,42.424V29.542H5.553a5.553,5.553,0,0,1,0-11.106H18.436V5.553a5.553,5.553,0,0,1,11.106,0V18.436H42.424a5.553,5.553,0,0,1,0,11.106H29.542V42.424a5.553,5.553,0,0,1-11.106,0Z" transform="translate(245.893 371.023)" fill="rgba(255,255,255,0.31)"/>
+    <g id="Ellipse_2738" data-name="Ellipse 2738" transform="translate(-73 -73)" fill="none" stroke="rgba(255,255,255,0.23)" stroke-width="25">
+      <circle cx="91.5" cy="91.5" r="91.5" stroke="none"/>
+      <circle cx="91.5" cy="91.5" r="79" fill="none"/>
+    </g>
+    <rect id="Rectangle_2563" data-name="Rectangle 2563" width="1366" height="767" fill="url(#linear-gradient)"/>
+    <path id="Subtraction_34" data-name="Subtraction 34" d="M-1539.768-87H-1759V-299.806c14.482,7.06,28.779,14.932,42.494,23.4a491.275,491.275,0,0,1,101,82.762A490.294,490.294,0,0,1-1539.769-87Z" transform="translate(1759 854)" fill="rgba(255,255,255,0.31)"/>
+    <g id="Ellipse_2759" data-name="Ellipse 2759" transform="translate(1275 112)" fill="none" stroke="rgba(255,255,255,0.23)" stroke-width="25">
+      <circle cx="91.5" cy="91.5" r="91.5" stroke="none"/>
+      <circle cx="91.5" cy="91.5" r="79" fill="none"/>
+    </g>
+  </g>
+</svg>

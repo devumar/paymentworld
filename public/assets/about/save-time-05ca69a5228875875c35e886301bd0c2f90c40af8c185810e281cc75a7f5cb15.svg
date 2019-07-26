@@ -1,0 +1,11 @@
+<svg id="pie-chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.576" height="57.729" viewBox="0 0 57.576 57.729">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.338" x2="-1.412" y2="1.186" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#66a6ff"/>
+      <stop offset="1" stop-color="#89f7fe"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_936" data-name="Path 936" d="M44.91,28.915a15.846,15.846,0,0,1-2.754,8.949L51.394,47.1a28.847,28.847,0,0,0,0-36.373l-9.238,9.238A15.853,15.853,0,0,1,44.91,28.915Z" transform="translate(-0.274 -0.05)" fill="url(#linear-gradient)"/>
+  <path id="Path_937" data-name="Path 937" d="M37.737,42.185A15.916,15.916,0,0,1,13.153,32H.077a28.861,28.861,0,0,0,46.9,19.424Z" transform="translate(-0.077 -0.15)" fill="url(#linear-gradient)"/>
+  <path id="Path_938" data-name="Path 938" d="M13.153,25.878A15.916,15.916,0,0,1,37.737,15.693l9.238-9.238A28.86,28.86,0,0,0,.077,25.878Z" transform="translate(-0.077)" fill="url(#linear-gradient)"/>
+</svg>
