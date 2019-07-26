@@ -40,7 +40,7 @@ $colore-white: #fff;
   }
 }
 .nav_btn {
-  float: right;
+  float: unset !important;
   margin-top: 20px;
   position: relative;
   z-index: 2;
