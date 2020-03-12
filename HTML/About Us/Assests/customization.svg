@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="413" height="420" viewBox="0 0 413 420">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.578" y1="-0.383" x2="1.105" y2="1.33" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f905f5"/>
+      <stop offset="1" stop-color="#4da1ff"/>
+    </linearGradient>
+    <filter id="Rectangle_2828" x="0" y="0" width="413" height="420" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1592" data-name="Group 1592" transform="translate(-477 -2974)">
+    <g transform="matrix(1, 0, 0, 1, 477, 2974)" filter="url(#Rectangle_2828)">
+      <rect id="Rectangle_2828-2" data-name="Rectangle 2828" width="323" height="330" rx="16" transform="translate(45 33)" opacity="0.8" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="World_Payments_technology_is_built_in_a_way_that_we_can_cater_to_any_payment_interaction_possible._" data-name="World Payments technology is built in a way that we can cater to any payment interaction possible.  " transform="translate(562 3178.942)" fill="#fff" font-size="16" font-family="Raleway-Regular, Raleway"><tspan x="8.136" y="15">World Payments technology is </tspan><tspan x="7.704" y="39">built in a way that we can cater </tspan><tspan x="22.624" y="63">to any payment interaction </tspan><tspan x="88.448" y="87" xml:space="preserve">possible.  </tspan></text>
+    <text id="Customization" transform="translate(594 3160)" fill="#fff" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Customization</tspan></text>
+    <g id="support" transform="translate(652.71 3056)">
+      <path id="Path_2560" data-name="Path 2560" d="M.442,5.57l4,7a1,1,0,0,0,.625.474l3.73.933L21.588,26.767,23,25.353,10.008,12.36a1,1,0,0,0-.464-.263L5.96,11.2l-3.4-5.96L5.475,2.319l5.963,3.407.9,3.584a1,1,0,0,0,.263.465L25.594,22.769l1.413-1.414L14.213,8.562l-.933-3.728a1,1,0,0,0-.474-.626l-7-4a1,1,0,0,0-1.2.161l-4,4a1,1,0,0,0-.171,1.2Zm0,0" transform="translate(-0.036 -0.071)" fill="#fff"/>
+      <path id="Path_2561" data-name="Path 2561" d="M197.384,175.133l-21.989,21.989-1.414-1.414,21.989-21.989Zm0,0" transform="translate(-155.423 -155.434)" fill="#fff"/>
+      <path id="Path_2562" data-name="Path 2562" d="M58.6,399.32a1,1,0,0,0-.857-.485h-6a1,1,0,0,0-.856.485l-3,5a1,1,0,0,0,0,1.03l3,5a1,1,0,0,0,.856.485h6a1,1,0,0,0,.857-.485l3-5a1,1,0,0,0,0-1.03Zm-1.422,9.51H52.317l-2.4-4,2.4-4h4.866l2.4,4Zm0,0" transform="translate(-42.482 -356.854)" fill="#fff"/>
+      <path id="Path_2563" data-name="Path 2563" d="M48.25,23.99A11.953,11.953,0,0,0,59.876,9.1,1,1,0,0,0,58.2,8.632l-6.222,6.218L47.042,13.2,45.4,8.269l6.222-6.223A1,1,0,0,0,51.149.369,11.957,11.957,0,0,0,36.256,12a11.731,11.731,0,0,0,.243,2.342L14.609,36.227a11.791,11.791,0,0,0-2.342-.243A11.994,11.994,0,1,0,24.262,47.978a11.762,11.762,0,0,0-.243-2.342l5.24-5.24,2.292,2.292a1,1,0,0,0,1.414,0l.5-.5a1.121,1.121,0,0,1,1.587,1.583l0,0-.5.5a1,1,0,0,0,0,1.413L46.473,57.609a8.067,8.067,0,1,0,11.46-11.357l-.051-.052L45.958,34.278a1,1,0,0,0-1.413,0l-.5.5a1.121,1.121,0,0,1-1.588-1.583l0,0,.5-.5a1,1,0,0,0,0-1.413l-2.292-2.292,5.24-5.24a11.761,11.761,0,0,0,2.342.243Zm3.927,33.983a6.074,6.074,0,0,1-2.126-.388l7.806-7.806a6.061,6.061,0,0,1-5.68,8.194ZM40.854,32a3.119,3.119,0,0,0,4.4,4.392L56.468,47.614c.122.122.236.251.346.382l-8.546,8.546c-.131-.11-.26-.224-.382-.346L36.661,44.97a3.12,3.12,0,0,0-4.4-4.392l-1.6-1.6L39.254,30.4ZM44.89,21.943,22.216,44.613a1,1,0,0,0-.264.95,10.062,10.062,0,1,1-7.268-7.269,1.008,1.008,0,0,0,.95-.264L38.3,15.36a1,1,0,0,0,.263-.949A9.946,9.946,0,0,1,48.818,2.017L43.545,7.292A1,1,0,0,0,43.3,8.314l2,6a1,1,0,0,0,.633.632l6,2a1,1,0,0,0,1.022-.241l5.272-5.272c.012.191.018.38.018.567A9.944,9.944,0,0,1,45.834,21.68a1,1,0,0,0-.95.263h.005Zm0,0" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_2564" data-name="Path 2564" d="M394.3,392.62l-1.414,1.414-9.995-9.995,1.413-1.414Zm0,0" transform="translate(-342.343 -342.35)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="assets/bootstrap.min.css">
 <link rel="stylesheet" href="assets/font-awesome.min.css">
-<%= stylesheet_link_tag 'pages/contact' %>  
+<%= stylesheet_link_tag 'pages/contact' %>
 
 </head>
 <body>
@@ -79,35 +79,45 @@
     </div>
 
     <div class="row">
-      <div class="col-md-5">
-        <div class="contact_listing_part">
-          <ul>
-            <li>
-              <div class="inner_list">
-                <h5>Location:</h5>
-                <p>
-                  Example Street, London, UK
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="inner_list">
-                <h5>Phone Number:</h5>
-                <p>
-                  +41 544 52 52 25
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="inner_list">
-                <h5>Emai:</h5>
-                <a href="#">
-                  info@worldpayments.com
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <div class="col-md-5 text-center">
+         <div class="contact-info">
+           <div style=" padding:20px; border-style:solid; border-width:1px; border-color:#E3E3E3; border-radius:10px; width:320px; margin: 0 auto;">
+
+          <div class="location">
+          <div style="float:left;">
+           <img src="/assets/svg/location.svg">
+          </div>
+          <div style="margin-left:35px;">
+           <h3 style="color:#585858; line-height: 20px; font-size:16px; font-family:poppins; font-weight:500;">Location</h3>
+           <p style="color:#585858; line-height: 20px; font-size:15px; font-family:raleway; font-style:regular; margin-top: -15px;">
+           160 Kemp House City Road<br> London EC1V 2NX</p>
+          </div>
+         </div>
+
+         <div class="contact-sales">
+          <div style="float:left;">
+           <img src="/assets/svg/contact_sales.svg">
+          </div>
+          <div style="margin-left:35px;">
+           <h3 style="color:#585858; line-height: 20px; font-size:16px; font-family:poppins; font-weight:500;">Contact Sales</h3>
+           <p style="color:#585858; line-height: 20px; font-size:15px; font-family:raleway; font-style:regular; margin-top: -15px;">
+           sales@worldpayments.com</p>
+          </div>
+         </div>
+
+        <div class="support">
+          <div style="float:left;">
+           <img src="/assets/svg/support.svg">
+          </div>
+          <div style="margin-left:35px;">
+           <h3 style="color:#585858; line-height: 20px; font-size:16px; font-family:poppins; font-weight:500;">Support</h3>
+           <p style="color:#585858; line-height: 20px; font-size:15px; font-family:raleway; font-style:regular; margin-top: -15px;">
+           support@worldpayments.com</p>
+          </div>
+         </div>
+
+         </div>
+       </div>
       </div>
       <div class="col-md-7">
         <div class="contact_us_form">
@@ -121,14 +131,14 @@
             <div class="contact_us_fld">
               <textarea placeholder="Your Message"></textarea>
             </div>
-            <button>
+            <button style="margin: 0 auto">
                 Send Message
             </button>
           </form>
         </div>
       </div>
     </div>
-  
+
   </div>
 </section>
 
@@ -281,7 +291,7 @@
               Contact
           </a>
         </li>
-        
+
       </ul>
     </div>
 
@@ -290,4 +300,4 @@
 
 </body>
 <script src="assets/materialize.min.js"></script>
-</html> 
+</html>

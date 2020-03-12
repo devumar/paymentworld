@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="413" height="420" viewBox="0 0 413 420">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.578" y1="-0.383" x2="1.105" y2="1.33" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f905f5"/>
+      <stop offset="1" stop-color="#4da1ff"/>
+    </linearGradient>
+    <filter id="Rectangle_2826" x="0" y="0" width="413" height="420" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1591" data-name="Group 1591" transform="translate(-118 -2974)">
+    <g transform="matrix(1, 0, 0, 1, 118, 2974)" filter="url(#Rectangle_2826)">
+      <rect id="Rectangle_2826-2" data-name="Rectangle 2826" width="323" height="330" rx="16" transform="translate(45 33)" opacity="0.8" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Fast_Integration" data-name="Fast Integration" transform="translate(228.5 3160)" fill="#fff" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Fast Integration</tspan></text>
+    <text id="Worldpayment_s_technology_allow_for_the_most_rapid_od_deployment._Integrating_has_never_been_easier_or_faster._" data-name="Worldpayment&apos;s technology allow for the most rapid od deployment. Integrating has never been easier or faster. " transform="translate(204 3178.942)" fill="#fff" font-size="16" font-family="Raleway-Regular, Raleway"><tspan x="16.152" y="15">Worldpayment&apos;s technology </tspan><tspan x="22.152" y="39">allow for the most rapid od </tspan><tspan x="17.464" y="63">deployment. Integrating has </tspan><tspan x="21.728" y="87">never been easier or faster. </tspan></text>
+    <g id="integration" transform="translate(111.973 3055.951)">
+      <g id="Group_85" data-name="Group 85" transform="translate(194.249 22.272)">
+        <g id="Group_84" data-name="Group 84" transform="translate(0)">
+          <path id="Path_801" data-name="Path 801" d="M241.361,160.049H226.916a1.111,1.111,0,0,0-1.111,1.111V165.6a1.111,1.111,0,0,0,1.111,1.111h3.333a2.222,2.222,0,1,1,0,4.445h-3.333a1.111,1.111,0,0,0-1.111,1.111v5.556H209.138a1.111,1.111,0,0,0-1.111,1.111v14.445a4.445,4.445,0,0,0,4.445,4.445h28.89a4.445,4.445,0,0,0,4.445-4.445V164.494A4.445,4.445,0,0,0,241.361,160.049Zm-15.556,35.556H212.472a2.222,2.222,0,0,1-2.222-2.222V180.049h15.556v2.222h-2.222a4.445,4.445,0,1,0,0,8.889h2.222Zm17.778-2.222a2.222,2.222,0,0,1-2.222,2.222H228.027V190.05a1.111,1.111,0,0,0-1.111-1.111h-3.333a2.222,2.222,0,1,1,0-4.445h3.333a1.111,1.111,0,0,0,1.111-1.111v-3.333h3.333v2.222a4.445,4.445,0,0,0,8.889,0v-2.222h3.333Zm0-15.556h-4.445a1.111,1.111,0,0,0-1.111,1.111v3.333a2.222,2.222,0,0,1-4.445,0v-3.333a1.111,1.111,0,0,0-1.111-1.111h-4.445v-4.445h2.222a4.445,4.445,0,1,0,0-8.889h-2.222v-2.222h13.334a2.222,2.222,0,0,1,2.222,2.222Z" transform="translate(-208.027 -160.049)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_87" data-name="Group 87" transform="translate(192.027 0.049)">
+        <g id="Group_86" data-name="Group 86" transform="translate(0 0)">
+          <path id="Path_802" data-name="Path 802" d="M214.25,4.494h-2.222V1.16A1.111,1.111,0,0,0,210.916.049H196.472a4.445,4.445,0,0,0-4.445,4.445l.012,15.556h18.877a1.111,1.111,0,0,0,1.111-1.111V13.383h2.222a4.445,4.445,0,1,0,0-8.889Zm0,6.667h-3.333a1.111,1.111,0,0,0-1.111,1.111v5.556H199.3a4.152,4.152,0,0,0-5.055-1.931V4.494a2.222,2.222,0,0,1,2.222-2.222h13.334V5.6a1.111,1.111,0,0,0,1.111,1.111h3.333a2.222,2.222,0,1,1,0,4.445Z" transform="translate(-192.027 -0.049)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_89" data-name="Group 89" transform="translate(194.575 26.716)">
+        <g id="Group_88" data-name="Group 88">
+          <path id="Path_803" data-name="Path 803" d="M225.927,194.6l-3.659,3.659v-6.207h-2.222v8.429l-1.111,1.111-1.111-1.111v-3.985H215.6v1.762l-3.659-3.659-1.571,1.571,7.778,7.778a1.111,1.111,0,0,0,1.571,0l7.778-7.778Z" transform="translate(-210.371 -192.049)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_91" data-name="Group 91" transform="translate(199.805 26.716)">
+        <g id="Group_90" data-name="Group 90" transform="translate(0)">
+          <rect id="Rectangle_167" data-name="Rectangle 167" width="2.222" height="2.222" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_93" data-name="Group 93" transform="translate(199.805 22.272)">
+        <g id="Group_92" data-name="Group 92" transform="translate(0)">
+          <rect id="Rectangle_168" data-name="Rectangle 168" width="2.222" height="2.222" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_95" data-name="Group 95" transform="translate(204.249 22.272)">
+        <g id="Group_94" data-name="Group 94" transform="translate(0)">
+          <rect id="Rectangle_169" data-name="Rectangle 169" width="2.222" height="2.222" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

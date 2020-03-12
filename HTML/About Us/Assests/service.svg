@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="413" height="420" viewBox="0 0 413 420">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.578" y1="-0.383" x2="1.105" y2="1.33" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f905f5"/>
+      <stop offset="1" stop-color="#4da1ff"/>
+    </linearGradient>
+    <filter id="Rectangle_2830" x="0" y="0" width="413" height="420" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1595" data-name="Group 1595" transform="translate(-656 -3347)">
+    <g transform="matrix(1, 0, 0, 1, 656, 3347)" filter="url(#Rectangle_2830)">
+      <rect id="Rectangle_2830-2" data-name="Rectangle 2830" width="323" height="330" rx="16" transform="translate(45 33)" opacity="0.8" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Our_team_of_experts_are_here_for_you_with_24_7_support_committed_to_providing_you_with_first-class_accessible_and_professional_service." data-name="Our team of experts are here
+for you, with 24/7 support, committed to providing you 
+with first-class, accessible and professional service." transform="translate(742 3551.942)" fill="#fff" font-size="16" font-family="Raleway-Regular, Raleway"><tspan x="15.368" y="15">Our team of experts are here</tspan><tspan x="24.16" y="39">for you, with 24/7 support, </tspan><tspan x="19.096" y="63">committed to providing you </tspan><tspan x="8.944" y="87">with first-class, accessible and </tspan><tspan x="46.384" y="111">professional service.</tspan></text>
+    <text id="Service" transform="translate(818 3526.442)" fill="#fff" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Service</tspan></text>
+    <g id="support_1_" data-name="support (1)" transform="translate(831.741 3423)">
+      <path id="Path_2565" data-name="Path 2565" d="M10.674,46.932a4.949,4.949,0,0,0-2.391.61A27.986,27.986,0,0,1,35.915,2.925,1.185,1.185,0,0,0,36.384.6,30.57,30.57,0,0,0,30.344,0,30.344,30.344,0,0,0,6.529,49.149a4.98,4.98,0,1,0,4.144-2.217Zm1.844,6.822a2.607,2.607,0,1,1,.764-1.844A2.59,2.59,0,0,1,12.517,53.754Zm0,0" fill="#fff"/>
+      <path id="Path_2566" data-name="Path 2566" d="M228.233,39.789a4.968,4.968,0,1,0-1.752,1.608A27.986,27.986,0,0,1,198.9,86.025a1.185,1.185,0,1,0-.465,2.325,30.591,30.591,0,0,0,5.983.59,30.344,30.344,0,0,0,23.813-49.151Zm-5.987-.916a2.608,2.608,0,1,1,1.844.764,2.591,2.591,0,0,1-1.844-.764Zm0,0" transform="translate(-174.076 -28.252)" fill="#fff"/>
+      <path id="Path_2567" data-name="Path 2567" d="M90.668,115.96a1.186,1.186,0,0,0,1.185,1.185h7.411a1.185,1.185,0,0,0,1.185-1.185v-2.3a18.561,18.561,0,0,0,4.449-1.844l1.622,1.622a1.185,1.185,0,0,0,1.677,0l5.239-5.242a1.186,1.186,0,0,0,0-1.676l-1.621-1.621a18.562,18.562,0,0,0,1.844-4.449h2.289a1.185,1.185,0,0,0,1.185-1.185V91.856a1.185,1.185,0,0,0-1.185-1.185h-2.29a18.564,18.564,0,0,0-1.843-4.448l1.612-1.612a1.185,1.185,0,0,0,0-1.677L108.184,77.7a1.185,1.185,0,0,0-1.676,0l-1.609,1.61a18.562,18.562,0,0,0-4.449-1.844V75.185A1.185,1.185,0,0,0,99.264,74H91.853a1.186,1.186,0,0,0-1.185,1.185v2.277a18.545,18.545,0,0,0-4.448,1.843l-1.61-1.61a1.186,1.186,0,0,0-1.676,0l-5.242,5.239a1.185,1.185,0,0,0,0,1.677L79.3,86.223a18.558,18.558,0,0,0-1.844,4.448H75.174a1.185,1.185,0,0,0-1.185,1.185l0,7.411a1.185,1.185,0,0,0,1.185,1.186h2.289A18.561,18.561,0,0,0,79.3,104.9l-1.621,1.621a1.185,1.185,0,0,0,0,1.676l5.239,5.242a1.186,1.186,0,0,0,.838.348h0a1.185,1.185,0,0,0,.838-.347l1.622-1.622a18.577,18.577,0,0,0,4.449,1.844Zm-3.984-6.635a1.186,1.186,0,0,0-1.482.157l-1.443,1.443L80.2,107.361l1.442-1.442a1.185,1.185,0,0,0,.157-1.481,16.224,16.224,0,0,1-2.245-5.419,1.186,1.186,0,0,0-1.159-.936H76.355l0-5.041h2.033a1.185,1.185,0,0,0,1.159-.936A16.226,16.226,0,0,1,81.8,86.687a1.185,1.185,0,0,0-.157-1.481l-1.433-1.433,3.566-3.563L85.2,81.642a1.186,1.186,0,0,0,1.482.157A16.218,16.218,0,0,1,92.1,79.554a1.186,1.186,0,0,0,.936-1.159V76.371h5.041v2.024a1.185,1.185,0,0,0,.936,1.159,16.231,16.231,0,0,1,5.418,2.245,1.184,1.184,0,0,0,1.481-.157l1.432-1.431,3.566,3.563-1.433,1.433a1.185,1.185,0,0,0-.157,1.482,16.235,16.235,0,0,1,2.245,5.418,1.185,1.185,0,0,0,1.159.936h2.037v5.041h-2.037a1.186,1.186,0,0,0-1.159.936,16.222,16.222,0,0,1-2.245,5.418,1.186,1.186,0,0,0,.157,1.482l1.442,1.442-3.563,3.566-1.443-1.443a1.185,1.185,0,0,0-1.482-.157,16.236,16.236,0,0,1-5.418,2.245,1.185,1.185,0,0,0-.936,1.159v2.045H93.038V112.73a1.186,1.186,0,0,0-.936-1.159,16.226,16.226,0,0,1-5.418-2.245Zm0,0" transform="translate(-65.215 -65.229)" fill="#fff"/>
+      <path id="Path_2568" data-name="Path 2568" d="M192.96,183.165a9.794,9.794,0,1,0-9.794,9.794A9.805,9.805,0,0,0,192.96,183.165Zm-17.218,0a7.424,7.424,0,1,1,7.424,7.424A7.432,7.432,0,0,1,175.742,183.165Zm0,0" transform="translate(-152.821 -152.822)" fill="#fff"/>
+      <path id="Path_2569" data-name="Path 2569" d="M339.263,20.181a1.186,1.186,0,1,0-.838-.347A1.194,1.194,0,0,0,339.263,20.181Zm0,0" transform="translate(-298.005 -15.698)" fill="#fff"/>
+      <path id="Path_2570" data-name="Path 2570" d="M155.544,474.359a1.186,1.186,0,1,0,.838.347A1.195,1.195,0,0,0,155.544,474.359Zm0,0" transform="translate(-136.063 -418.133)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

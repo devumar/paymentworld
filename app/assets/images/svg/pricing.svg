@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1068" height="571" viewBox="0 0 1068 571">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.105" y1="-0.065" x2="1.075" y2="1.062" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17c9f2"/>
+      <stop offset="1" stop-color="#f905f5"/>
+    </linearGradient>
+    <filter id="Rounded_Rectangle_2" x="588.038" y="25" width="479.962" height="532" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#221f1f" flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <image id="image" width="15" height="13" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAYAAAB2HjRBAAAABHNCSVQICAgIfAhkiAAAAMJJREFUKJGVkkELQUEUhc+TlS1vI8WCslF2ylLZSbbyA/wiSzu/yMvOjhULKVGv9NnMzTQe3jt1a6Z7vjMzt4kAFdRcUkXSulwQnEnaSCpJqgrIW2Mg5a1tXnAI3D1wD8R5wD5w9cAj0ABkhg5QywC7wNkDT0Db+gJ6zpAAsQe23Cmmi/PKhw+ewQLq7l2mGzAIbyZgGkxx58r0AEZZ87BFGGBKXS9zmP4mDHgCi29gCIcBy18goIjPvz2R1JS0+vdXX+r7/gFHIaQbAAAAAElFTkSuQmCC"/>
+    <image id="image-2" width="15" height="13" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAYAAAB2HjRBAAAABHNCSVQICAgIfAhkiAAAARBJREFUKJGV0TFLHEEYBuDnDizWwsp0goIIFgZSJlaOYidicY2lrf6AwPbOP0hpmS5pAqkSWLUQrLXUyrOysTETEFwLZ3U5PL37uvnme2ZeZjp1XRunQkzbmKzK4qAzDg4xbeEnuvg6Mg4xreM3JnLrbCQcYlrGXxS5dYkv7+IQ0yccYSq3rvG5Kot+Nw8shJimX4GL+NOCN1ipyqIP3RDTR5ygCjF9aMG5HLU59BZrVVlcNDOdlf1/V5jJ63OsenqUY8zn/l2Gp+1kXezhPq+XcJijNvA/NgchdOq6FmLaxA8v39DUPXpVWfwahM3N8mavlQAesDMMPuMhB+xWZfF9GHyO3a4Q0wZmq7L49haER4rCYzRsT0ceAAAAAElFTkSuQmCC"/>
+  </defs>
+  <g id="Group_1583" data-name="Group 1583" transform="translate(-154 -2145)">
+    <path id="Rounded_Rectangle_2-2" data-name="Rounded Rectangle 2" d="M0,0H597.038V571H0Z" transform="translate(154 2145)" opacity="0.8" fill="url(#linear-gradient)"/>
+    <text id="Integrated" transform="translate(387.185 2231.187)" fill="#fff" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Integrated</tspan></text>
+    <text id="_2.9_30_c" data-name="2.9% + 30 c" transform="translate(360.152 2295.705)" fill="#fff" font-size="36" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">2.9% + 30 c</tspan></text>
+    <text id="Access_a_complete_platform_for_online_payments_with_simple_pay-as-you-go_pricing" data-name="Access a complete platform for online payments 
+with simple, pay-as-you-go pricing" transform="translate(452.639 2350.435)" fill="#fff" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-225.306" y="0">Access a complete platform for online payments </tspan><tspan x="-164.844" y="36">with simple, pay-as-you-go pricing</tspan></text>
+    <g id="Group_3" data-name="Group 3" transform="translate(290 2426.278)">
+      <use id="check" transform="translate(0 4.722)" xlink:href="#image"/>
+      <text id="Everything_you_need_to_manage_payments_" data-name="Everything you need to manage payments
+" transform="translate(20.472 15)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Everything you need to manage payments</tspan><tspan x="0" y="36"></tspan></text>
+    </g>
+    <g id="Group_3_copy" data-name="Group 3 copy" transform="translate(291 2457.278)">
+      <use id="check-2" data-name="check" transform="translate(0 3.722)" xlink:href="#image"/>
+      <text id="No_setup_fees_monthly_fees_or_hidden_fees" data-name="No setup fees, monthly fees, or hidden fees" transform="translate(20.472 15)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">No setup fees, monthly fees, or hidden fees</tspan></text>
+    </g>
+    <g id="Group_3_copy_2" data-name="Group 3 copy 2" transform="translate(366 2487.278)">
+      <use id="check-3" data-name="check" transform="translate(0 3.722)" xlink:href="#image"/>
+      <text id="Phone_Mail_Support" data-name="Phone &amp; Mail Support" transform="translate(20.472 15)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Phone &amp; Mail Support</tspan></text>
+    </g>
+    <g id="Group_3_copy_5" data-name="Group 3 copy 5" transform="translate(392 2517.278)">
+      <use id="check-4" data-name="check" transform="translate(0 3.722)" xlink:href="#image"/>
+      <text id="_1_Year_License" data-name="1 Year License" transform="translate(20.472 15)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">1 Year License</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 154, 2145)" filter="url(#Rounded_Rectangle_2)">
+      <g id="Rounded_Rectangle_2-3" data-name="Rounded Rectangle 2" transform="translate(597.04 32)" fill="#fff" stroke="#226be2" stroke-width="2">
+        <rect width="461.962" height="514" stroke="none"/>
+        <rect x="1" y="1" width="459.962" height="512" fill="none"/>
+      </g>
+    </g>
+    <text id="Customized" transform="translate(913 2268.502)" fill="#5d5d5d" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Customized</tspan></text>
+    <text id="Design_a_custom_package_for_your_business" data-name="Design a custom package 
+for your business" transform="translate(986 2323.263)" fill="#5d5d5d" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-121.707" y="0">Design a custom package </tspan><tspan x="-78.309" y="36">for your business</tspan></text>
+    <g id="Group_17" data-name="Group 17" transform="translate(882.739 2395.695)">
+      <g id="Group_3-2" data-name="Group 3" transform="translate(30.261)">
+        <use id="check-5" data-name="check" transform="translate(0 4.722)" xlink:href="#image-2"/>
+        <text id="Volume_discounts" data-name="Volume discounts" transform="translate(20.472 15)" fill="#737373" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Volume discounts</tspan></text>
+      </g>
+      <g id="Group_3_copy-2" data-name="Group 3 copy" transform="translate(24.261 35)">
+        <use id="check-6" data-name="check" transform="translate(0 4.722)" xlink:href="#image-2"/>
+        <text id="Interchange_pricing_" data-name="Interchange pricing
+" transform="translate(20.472 15)" fill="#737373" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Interchange pricing</tspan><tspan x="0" y="36"></tspan></text>
+      </g>
+      <g id="Group_3_copy_2-2" data-name="Group 3 copy 2" transform="translate(10.261 68)">
+        <use id="check-7" data-name="check" transform="translate(0 3.722)" xlink:href="#image-2"/>
+        <text id="Multi-product_discounts" data-name="Multi-product discounts" transform="translate(19.472 15)" fill="#737373" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Multi-product discounts</tspan></text>
+      </g>
+      <g id="Group_3_copy_6" data-name="Group 3 copy 6" transform="translate(0.261 102)">
+        <use id="check-8" data-name="check" transform="translate(0 3.722)" xlink:href="#image-2"/>
+        <text id="Bring_your_own_Amex_rates" data-name="Bring your own Amex rates" transform="translate(20.472 15)" fill="#737373" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Bring your own Amex rates</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

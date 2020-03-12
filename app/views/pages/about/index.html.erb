@@ -15,9 +15,9 @@
 <link rel="stylesheet" href="assets/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/owl.theme.default.min.css">
 
-<%= stylesheet_link_tag 'pages/navbar' %>   
-<%= stylesheet_link_tag 'pages/about' %>   
-<%= stylesheet_link_tag 'pages/footer' %> 
+<%= stylesheet_link_tag 'pages/navbar' %>
+<%= stylesheet_link_tag 'pages/about' %>
+<%= stylesheet_link_tag 'pages/footer' %>
 
 </head>
 <body>
@@ -61,81 +61,49 @@
     </div>
   </div>
 </section>
-<section id="merchant_sec">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="merchant_heading">
-          <h3>What’s in it for you as a merchant:</h3>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="merchant_text_icon">
-          <div class="merchant_icon">
-            <img src="/assets/about/mr-1.svg">
-          </div>
-          <div class="merchant_text">
-            <p>Most Reliable <br>
-                Payment Gateway</p>
-          </div>
 
-        </div>
-        <div class="merchant_text_icon">
-            <div class="merchant_icon">
-              <img src="/assets/about/mr-2.svg">
-            </div>
-            <div class="merchant_text">
-              <p>Unique Optimization  <br>
-                Features</p>
-            </div>
-  
-        </div>
-        <div class="merchant_text_icon">
-          <div class="merchant_icon">
-            <img src="/assets/about/mr-3.svg">
-          </div>
-          <div class="merchant_text">
-            <p>Traffic Routing System for <br>
-              Maximized Acceptance Rates</p>
-          </div>
-
-        </div>
-        
-      </div>
-      <div class="col-md-6">
-        <div class="merchant_text_icon">
-          <div class="merchant_icon">
-            <img src="/assets/about/mr-4.svg">
-          </div>
-          <div class="merchant_text">
-            <p>Intelligent  <br>
-              Risk Management</p>
-          </div>
-        </div>
-        <div class="merchant_text_icon">
-            <div class="merchant_icon">
-              <img src="/assets/about/mr-5.svg">
-            </div>
-            <div class="merchant_text">
-              <p>Unrivalled Back Office  <br>
-                and Reporting System</p>
-            </div>
-        </div>
-        <div class="merchant_text_icon">
-          <div class="merchant_icon">
-            <img src="/assets/about/mr-6.svg">
-          </div>
-          <div class="merchant_text">
-            <p>One Stop Shop - No Need for  <br>
-              Unnecessary 3rd Party Integrations</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
+<section>
+ <div id="merchant">
+   <div class="merchant_text">
+    <div>
+   <h1>What’s in it for you as a merchant</h1>
+     <div class="title_bar mt-3">
+    <img src="/assets/svg/after_Title_Icons_Bar.svg">
+   </div>
+     <p>Manage all your business activity in one back office, which is user-friendly, and unrivalled in terms of
+     organization and giving you all the necessary insight and knowledge into your PSPs, merchants, banks, and analytics.</p>
   </div>
+
+   <div id="merchant_graphics">
+    <div class="row">
+      <div class="col-md-8 offset-2 row">
+         <div class="payment_gateway col-md-4">
+            <img src="/assets/svg/most_reliable_payment_gateway.svg">
+         </div>
+           <div class="unique_optimization col-md-4">
+            <img src="/assets/svg/unique_optimization_features.svg">
+           </div>
+           <div class="traffic_routing col-md-4">
+            <img src="/assets/svg/traffic_routing.svg">
+           </div>
+      </div>
+  </div>
+  <div class="row">
+     <div class="col-md-8 offset-2 row">
+       <div class="risk_management col-md-4">
+      <img src="/assets/svg/intelligent_risk_management.svg">
+     </div>
+     <div class="office_reporting col-md-4">
+      <img src="/assets/svg/back_office_reporting.svg">
+     </div>
+     <div class="one_stop col-md-4">
+      <img src="/assets/svg/one_stop_shop.svg">
+     </div>
+     </div>
+    </div>
+   </div>
+   </div>
+ </div>
 </section>
 <section id="about_gray_sec">
   <div class="container">
@@ -234,41 +202,31 @@
   </div>
 </section>
 <section id="our_vision_sec">
-  <div class="container">
-    <div class="our_vision_heading">
-      <h3>Our Vision</h3>
+  <div class="container mission_heading">
+    <h3>Our Vision</h3>
+    <div id="vision_content">
+   <div class="col-v-1">
+    <div class="fast_integration">
+     <img src="/assets/svg/fast_integration.svg">
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="our_vision_left_part">
-          <h4>Fast Integration</h4>
-          <div class="border_line_blue_light"></div>
-          <p>
-              Worldpayment's technology allow for the most rapid od deployment. Integrating has never been easier or faster. 
-          </p>
-          <ul>
-            <li>
-              <a href="#">Customization</a>
-            </li>
-            <li>
-              <a href="#">Flexibilty</a>
-            </li>
-            <li>
-            <a href="#">Innovation</a>
-            </li>
-            <li>
-              <a href="#">Service</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-8">
-        <div class="our_vision_img">
-          <img src="/assets/about/our-vison-sec.svg">
-        </div>
-      </div>
+    <div class="customization">
+     <img src="/assets/svg/customization.svg">
     </div>
-  </div>
+    <div class="flexibilty">
+     <img src="/assets/svg/flexibility.svg">
+    </div>
+   </div>
+   <div class="col-v-2">
+   <div class="innovation">
+    <img src="/assets/svg/innovation.svg">
+   </div>
+   <div class="service">
+    <img src="/assets/svg/service.svg">
+   </div>
+   </div>
+ </div>
+</section>
+   </div>
 </section>
 
 <section id="our_clients_sec">
@@ -326,4 +284,4 @@
 <script src="assets/bootstrap.min.js"></script>
 <script src="assets/custom_e.js"></script>
 
-</html> 
+</html>
