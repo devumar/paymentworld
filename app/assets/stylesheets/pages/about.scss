@@ -165,6 +165,13 @@ body{
     font-family: $font-Raleway;
     color: #185B6D;
   }
+#aboutHeader {
+  background-image: url('/assets/svg/slider_background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 454px;
+}
+
 #aboutHeader .header_content {
 	display: flex;
 	justify-content: center;
