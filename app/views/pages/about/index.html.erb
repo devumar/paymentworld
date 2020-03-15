@@ -25,99 +25,73 @@
 <header id="main_header_bg">
   <div class="container_e">
     <%= render 'layouts/navbar' %>
-    <div class="row">
-      <div class="col-md-5">
-        <div class="about_phone_sec">
-          <div class="phone_img desktop">
-            <img src="/assets/about/Phone.svg">
-          </div>
-          <div class="phone_card desktop">
-            <img src="/assets/about/p-card.svg">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="about_banner_heading">
-          <h3>Most Reliable Payment Gateway <br>
-            with a 99.997% Uptime Track Record.
-          </h3>
-          <a href="javascript:;" class="open_signup">CREATE ACCOUNT ></a>
-
-        </div>
-      </div>
+    <div id="aboutHeader">
+     <div class="header_content">
+      <h2>Most Reliable Payment Gateway with a 99.997% Uptime Track Record.</h2>
+     </div>
+     <div class="header_content">
+      <button id="contact_sales" class="button">Contact Sales</button>
+     </div>
     </div>
   </div>
 </header>
 <section id="about_payment">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="about_pay_heading">
-          <h3>About Worldpayments</h3>
-          <p>In an ever growing world of digitalization, we at World Payments offers a unique online payment gateway where small or large businesses and professionals from various fields can operate fully functionally.  Our system helps to do transactions at the click of the finger. We are proud to interact with various professionals from around the world, to facilitate smooth cross border transactions without the hassles of bank and bankers’ requirements.</p>
-          <p >World Payments is a platform where you can manage all your business activities in our user-friendly back office. It is unrivaled in terms of organization and provision of all the necessary insights and knowledge into your PSPs, merchants, banks, and analytics.</p>
-        </div>
+  <div id="aboutUs">
+   <div class="about_content">
+    <h1>About World Payments</h1>
+    <div class="title_bar">
+    <img src="/assets/svg/after_Title_Icons_Bar.svg">
       </div>
-    </div>
-  </div>
+  <p>World Payments provide a unique online payment gateway in an ever-growing digital world where
+businesses and professionals prefer transactions to be done at the click of the finger. We are proud to
+interact with various professionals in many countries around the world to facilitate smooth cross border
+transactions without the hassle of banks and bankers requirements.</p>
+   </div>
+ </div>
 </section>
+
+<!-- Merchant's Benefits Section | After the fold -->
 
 <section>
  <div id="merchant">
    <div class="merchant_text">
     <div>
-   <h1>What’s in it for you as a merchant</h1>
-     <div class="title_bar mt-3">
-    <img src="/assets/svg/after_Title_Icons_Bar.svg">
-   </div>
+	 <h1>What’s in it for you as a merchant</h1>
+     <div class="title_bar">
+	  <img src="/assets/svg/after_Title_Icons_Bar.svg">
+	 </div>
      <p>Manage all your business activity in one back office, which is user-friendly, and unrivalled in terms of
      organization and giving you all the necessary insight and knowledge into your PSPs, merchants, banks, and analytics.</p>
-  </div>
+	</div>
 
    <div id="merchant_graphics">
-    <div class="row">
-      <div class="col-md-8 offset-2 row">
-         <div class="payment_gateway col-md-4">
-            <img src="/assets/svg/most_reliable_payment_gateway.svg">
-         </div>
-           <div class="unique_optimization col-md-4">
-            <img src="/assets/svg/unique_optimization_features.svg">
-           </div>
-           <div class="traffic_routing col-md-4">
-            <img src="/assets/svg/traffic_routing.svg">
-           </div>
-      </div>
-  </div>
-  <div class="row">
-     <div class="col-md-8 offset-2 row">
-       <div class="risk_management col-md-4">
+    <div class="col-md-1">
+	 <div class="payment_gateway">
+      <img src="/assets/svg/most_reliable_payment_gateway.svg">
+	 </div>
+     <div class="unique_optimization">
+      <img src="/assets/svg/unique_optimization_features.svg">
+     </div>
+     <div class="traffic_routing">
+      <img src="/assets/svg/traffic_routing.svg">
+     </div>
+	</div>
+	<div class="col-md-1">
+     <div class="risk_management">
       <img src="/assets/svg/intelligent_risk_management.svg">
      </div>
-     <div class="office_reporting col-md-4">
+     <div class="office_reporting">
       <img src="/assets/svg/back_office_reporting.svg">
      </div>
-     <div class="one_stop col-md-4">
+     <div class="one_stop">
       <img src="/assets/svg/one_stop_shop.svg">
-     </div>
      </div>
     </div>
    </div>
    </div>
  </div>
 </section>
-<section id="about_gray_sec">
-  <div class="container">
-    <div class="gray_sec_pera">
-      <p>
-          Manage all your business activity in one back
-          office, which is user-friendly, and unrivalled in
-          terms of organization and giving you all the
-          necessary insight and knowledge into your PSPs,
-          merchants, banks, and analytics.
-      </p>
-    </div>
-  </div>
-</section>
+
 <section id="pricing_sec">
   <div class="container">
     <div class="row">
@@ -180,31 +154,18 @@
     </div>
   </div>
 </section>
-<section id="mission_statement_sec">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="mission_heading">
-          <h3>Mission Statement</h3>
-          <p> We do all the technical stuff so that you can focus on your customers and sales.</p>
-          <ul>
-            <li> A single platform for ease of access and global commerce execution.</li>
-            <li> A single platform to handle cross border payments issues.</li>
-            <li> A single platform to increase the financial dealings within global markets.</li>
-            <li> We excel in winning the trust of merchants, corporates and individuals by offering secure payment systems and options.
-                </li>
-            <li> Our low cost financial solutions are reliable, fast and adaptable in emerging & established global markets for payment processes.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
-  </div>
-</section>
-<section id="our_vision_sec">
-  <div class="container mission_heading">
-    <h3>Our Vision</h3>
-    <div id="vision_content">
+<!-- Our Vision Section -->
+
+<section>
+ <div id="vision">
+  <h1>Our Vision</h1>
+   <div class="title_bar">
+    <img src="/assets/svg/after_Title_Icons_Bar.svg">
+   </div>
+ </div>
+
+ <div id="vision_content">
    <div class="col-v-1">
     <div class="fast_integration">
      <img src="/assets/svg/fast_integration.svg">
@@ -225,8 +186,6 @@
    </div>
    </div>
  </div>
-</section>
-   </div>
 </section>
 
 <section id="our_clients_sec">
