@@ -22,7 +22,7 @@
 </head>
 <body>
 
-<header id="about_header" style="background-image: url('/assets/svg/slider_background.svg'); background-repeat: no-repeat; background-size: cover; min-height: 454px;">
+<header id="about_header" class="desktop" style="background-image: url('/assets/svg/slider_background.svg'); background-repeat: no-repeat; background-size: cover; min-height: 454px;">
   <div class="container_e">
     <%= render 'layouts/navbar' %>
     <div>
@@ -44,6 +44,30 @@
     </div>
   </div>
 </header>
+
+<header id="about_header" class="mobile" style="background-image: url('/assets/svg/slider_background.svg'); background-repeat: no-repeat; background-size: cover; min-height: 454px;">
+  <div class="container_e">
+    <%= render 'layouts/navbar' %>
+    <div>
+     <div class="header_content">
+      <h2 style="font-family: Poppins; font-weight: 500; line-height: 1.5; text-align: center; color: #FFF; max-width: 590px; margin-top: 40px;">
+        Most Reliable Payment Gateway with a 99.997% Uptime Track Record.</h2>
+     </div>
+     <div class="header_content" style="display: flex; justify-content: center; margin-top: 10px;">
+      <button id="contact_sales" class="button" style="width: 160px;
+      	height: 35px;
+      	border: 0;
+      	border-radius: 42px;
+      	color: #FFFFFF;
+      	background-color: #F905F5;
+      	font-family: Poppins;
+      	font-size: 16px;
+      	font-weight: 500; margin-bottom: 15px;">Contact Sales</button>
+     </div>
+    </div>
+  </div>
+</header>
+
 <section id="about_payment" class="desktop">
   <div id="aboutUs" style="display: flex; justify-content: center;">
    <div class="about_content" style=" max-width: 770px; text-align: center;">
