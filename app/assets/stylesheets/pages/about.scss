@@ -11,8 +11,13 @@ $colore-white: #fff;
 body{
   margin: 0;
   padding: 0;
-  background-image: url('/assets/svg/slider_background.svg');
-	background-repeat: no-repeat;
+  font-family: Raleway;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	color: #3B3B3B;
 }
 .container_e{
   width: 1170px;
@@ -165,93 +170,7 @@ body{
     font-family: $font-Raleway;
     color: #185B6D;
   }
-#about_header {
-  background-image: url('/assets/svg/slider_background.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 454px;
-}
 
-#aboutHeader .header_content {
-	display: flex;
-	justify-content: center;
-}
-#aboutHeader h2 {
-	color: #FFF;
-	max-width: 554px;
-	margin-top: 170px;
-}
-#aboutUs {
-	display: flex;
-	justify-content: center;
-	margin-top: 120px;
-}
-
-#aboutUs .about_content {
-	max-width: 770px;
-	text-align: center;
-}
-#merchant {
-	display: flex;
-	justify-content: center;
-	margin-top: 25px;
-}
-
-#merchant .merchant_text {
-	max-width: 770px;
-	text-align: center;
-}
-#merchant_graphics {
-	margin-top: 50px;
-}
-#merchant_graphics img {
-	width: 364px;
-	height: 372px;
-	margin: -30px;
-}
-
-#merchant .col-md-1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#merchant .col-md-2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#merchant_graphics .unique_optimization {
-	margin-top: -20px;
-}
-
-#merchant_graphics .office_reporting {
-	margin-top: -20px;
-}
-
-#vision {
-	margin-top: 50px;
-}
-
-#vision_content .col-v-1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 30px;
-}
-
-#vision_content .col-v-2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#vision_content img {
-	width: 364px;
-	height: 372px;
-	margin: -30px;
-}
 #pricing_sec{
   padding: 70px 0;
 }
