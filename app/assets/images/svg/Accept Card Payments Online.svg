@@ -7,9 +7,10 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <linearGradient id="linear-gradient" x1="-0.344" y1="-0.384" x2="1.244" y2="1.765" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f905f5"/>
-      <stop offset="1" stop-color="#4da1ff"/>
+    <linearGradient id="linear-gradient" x1="-0.038" x2="2.102" y2="2.894" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f"/>
+      <stop offset="0.48" stop-color="#05d5ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="-4.047" y1="0.5" x2="-3.047" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#62177d"/>
@@ -80,7 +81,7 @@
     </linearGradient>
     <linearGradient id="linear-gradient-16" x1="-5.412" y1="0.964" x2="-5.208" y2="0.034" xlink:href="#linear-gradient-15"/>
   </defs>
-  <g id="Group_1932" data-name="Group 1932" transform="translate(-119 -1059)">
+  <g id="Group_1943" data-name="Group 1943" transform="translate(-119 -1059)">
     <g transform="matrix(1, 0, 0, 1, 119, 1059)" filter="url(#Rectangle_2672)">
       <rect id="Rectangle_2672-2" data-name="Rectangle 2672" width="323" height="432" rx="16" transform="translate(45 33)" fill="#fff"/>
     </g>
