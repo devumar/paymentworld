@@ -13,7 +13,7 @@ body{
   padding: 0;
 }
 #main_home_bg {
-  background-image: asset-url("home/home-bg-banner.svg");
+  background-image: asset-url("/assets/svg/home_header_bg.svg");
   min-height: 770px;
   background-repeat: no-repeat;
   position: relative;
@@ -113,7 +113,7 @@ body{
     color: #111111;
     background-color: #fff;
   }
-  
+
 }
 .plus_icon{
   float: right;
@@ -535,7 +535,7 @@ body{
     text-align: center;
   }
   .home_banner_heading p {
-     font-weight: normal; 
+     font-weight: normal;
     font-size: 14px;
     text-align: center;
   }
@@ -644,7 +644,7 @@ body{
     text-align: center;
   }
   .home_banner_heading p {
-     font-weight: normal; 
+     font-weight: normal;
     font-size: 12px;
     text-align: center;
   }
@@ -715,20 +715,3 @@ body{
 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
