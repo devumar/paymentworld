@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="597.038" height="571" viewBox="0 0 597.038 571">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="597" height="571" viewBox="0 0 597 571">
   <defs>
-    <linearGradient id="linear-gradient" x1="-0.105" y1="-0.065" x2="1.075" y2="1.062" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#17c9f2"/>
-      <stop offset="1" stop-color="#f905f5"/>
+    <linearGradient id="linear-gradient" x1="-0.04" y1="-0.07" x2="1.607" y2="2.104" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f"/>
+      <stop offset="0.505" stop-color="#05d5ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
     </linearGradient>
   </defs>
-  <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" d="M0,0H597.038V571H0Z" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_2861" data-name="Rectangle 2861" width="597" height="571" fill="url(#linear-gradient)"/>
 </svg>

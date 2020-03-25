@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="454" viewBox="0 0 1366 454">
+<svg id="Group_1626" data-name="Group 1626" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="454" viewBox="0 0 1366 454">
   <defs>
-    <linearGradient id="linear-gradient" x1="-0.209" y1="-0.208" x2="1.49" y2="1.875" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f905f5"/>
-      <stop offset="1" stop-color="#17c9f2"/>
+    <linearGradient id="linear-gradient" x1="-0.129" y1="-0.699" x2="1.831" y2="2.314" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f"/>
+      <stop offset="0.446" stop-color="#05d5ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
     </linearGradient>
   </defs>
-  <g id="Group_1583" data-name="Group 1583" transform="translate(0 0)">
-    <rect id="Rectangle_2450" data-name="Rectangle 2450" width="1366" height="454" fill="url(#linear-gradient)"/>
-    <path id="Subtraction_2" data-name="Subtraction 2" d="M-1655.687,122a285.655,285.655,0,0,1-98.1-17.232,285.975,285.975,0,0,1-43.947-20.4,287.841,287.841,0,0,1-39.531-27.239,289.032,289.032,0,0,1-34.355-33.317,288.323,288.323,0,0,1-28.416-38.635,286.22,286.22,0,0,1-21.714-43.192A285.1,285.1,0,0,1-1936-105h327.813V118.087A289.567,289.567,0,0,1-1655.687,122Z" transform="translate(2974.187 105)" fill="rgba(255,255,255,0.31)"/>
+  <rect id="Rectangle_2450" data-name="Rectangle 2450" width="1366" height="454" fill="url(#linear-gradient)"/>
+  <path id="Subtraction_7" data-name="Subtraction 7" d="M-1655.687,223a285.592,285.592,0,0,1-98.091-17.235,285.828,285.828,0,0,1-43.945-20.4,287.967,287.967,0,0,1-39.531-27.239,289.058,289.058,0,0,1-34.355-33.319,288.333,288.333,0,0,1-28.417-38.634,286.391,286.391,0,0,1-21.718-43.19A285.2,285.2,0,0,1-1936-4h327.813V219.085A289.471,289.471,0,0,1-1655.687,223Z" transform="translate(2974.187 4)" fill="rgba(255,255,255,0.31)"/>
+  <g id="Group_1583" data-name="Group 1583">
     <circle id="Ellipse_2757" data-name="Ellipse 2757" cx="41" cy="41" r="41" transform="translate(143 196)" fill="rgba(255,255,255,0.23)"/>
     <rect id="Rectangle_2523" data-name="Rectangle 2523" width="77.726" height="14.016" rx="7.008" transform="matrix(0.799, -0.602, 0.602, 0.799, 107.57, 205.842)" fill="rgba(255,255,255,0.24)"/>
-    <path id="Union_1" data-name="Union 1" d="M42.437,97.655V68H12.782a12.782,12.782,0,0,1,0-25.564H42.437V12.782a12.782,12.782,0,0,1,25.564,0V42.437H97.655a12.782,12.782,0,0,1,0,25.564H68V97.655a12.782,12.782,0,0,1-25.564,0Z" transform="translate(1106.893 296.023)" fill="rgba(255,255,255,0.31)"/>
   </g>
+  <path id="Union_1" data-name="Union 1" d="M42.437,97.655V68H12.782a12.782,12.782,0,0,1,0-25.564H42.437V12.782a12.782,12.782,0,0,1,25.564,0V42.437H97.655a12.782,12.782,0,0,1,0,25.564H68V97.655a12.782,12.782,0,0,1-25.564,0Z" transform="translate(1106.893 296.023)" fill="rgba(255,255,255,0.31)"/>
 </svg>

@@ -7,13 +7,17 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <linearGradient id="linear-gradient" x1="-0.344" y1="-0.384" x2="1.244" y2="1.765" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient" x2="1.476" y2="2.758" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f"/>
+      <stop offset="0.463" stop-color="#05d5ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.163" y1="-0.041" x2="0.949" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#f905f5"/>
       <stop offset="1" stop-color="#4da1ff"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="-0.163" y1="-0.041" x2="0.949" y2="1" xlink:href="#linear-gradient"/>
   </defs>
-  <g id="Group_1589" data-name="Group 1589" transform="translate(-118 -1061)">
+  <g id="Group_1616" data-name="Group 1616" transform="translate(-118 -1061)">
     <g transform="matrix(1, 0, 0, 1, 118, 1061)" filter="url(#Path_2586)">
       <path id="Path_2586-2" data-name="Path 2586" d="M16,0H307a16,16,0,0,1,16,16V314a16,16,0,0,1-16,16H16A16,16,0,0,1,0,314V16A16,16,0,0,1,16,0Z" transform="translate(45 33)" fill="#fff"/>
     </g>
