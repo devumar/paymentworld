@@ -20,9 +20,12 @@
 <%= stylesheet_link_tag 'slick.css' %>
 
 <style>
-  .main_home_bg {
-    background: url(/assets/svg/home_header_bg.svg);
-    background-repeat: no-repeat;"
+  #main_home_bg {
+    background-image: asset-url("/assets/svg/home_header_bg.svg");
+    min-height: 770px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
   }
 </style>
 
