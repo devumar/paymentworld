@@ -26,6 +26,13 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: contain;
+
+    @media only screen and (max-width: 767px)  {
+      #main_home_bg {
+        background-image: asset-url("/assets/svg/home_header_mobile_bg.svg");
+        background-size: contain;
+      }
+    }
   }
 </style>
 
