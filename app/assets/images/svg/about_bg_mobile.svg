@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="361.001" height="454" viewBox="0 0 361.001 454">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.209" y1="-0.208" x2="1.49" y2="1.875" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f"/>
+      <stop offset="0.491" stop-color="#05d5ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1625" data-name="Group 1625" transform="translate(1 0)">
+    <rect id="Rectangle_2846" data-name="Rectangle 2846" width="361" height="454" transform="translate(-1)" fill="url(#linear-gradient)"/>
+    <path id="Subtraction_4" data-name="Subtraction 4" d="M-3022,461.983a285.613,285.613,0,0,1-76.035-41.5,287.742,287.742,0,0,1-59.8-61.7,285.251,285.251,0,0,1-39.135-77.473A285.479,285.479,0,0,1-3204.813,252H-3022V461.982h0Z" transform="translate(3382 -252)" fill="rgba(255,255,255,0.31)"/>
+    <path id="Subtraction_5" data-name="Subtraction 5" d="M-3438.893-88.541h0a6.718,6.718,0,0,1-4.705-2.016,6.725,6.725,0,0,1-1.945-4.746V-111h-15.692a6.771,6.771,0,0,1-6.763-6.764,6.771,6.771,0,0,1,6.763-6.763h15.692v-15.692a6.724,6.724,0,0,1,1.945-4.745,6.723,6.723,0,0,1,4.707-2.017Z" transform="translate(3798.893 509)" fill="rgba(255,255,255,0.31)"/>
+    <path id="Subtraction_2" data-name="Subtraction 2" d="M-3308.96-120H-3369v-81.613a66.718,66.718,0,0,1,24.875,7.025,66.956,66.956,0,0,1,20.3,15.852,66.953,66.953,0,0,1,12.872,22.3,66.741,66.741,0,0,1,3.441,26.454A67.879,67.879,0,0,1-3308.96-120Z" transform="translate(3369 574)" fill="rgba(255,255,255,0.23)"/>
+  </g>
+</svg>

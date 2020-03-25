@@ -7,9 +7,10 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <linearGradient id="linear-gradient" x1="-0.344" y1="-0.384" x2="1.244" y2="1.765" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f905f5"/>
-      <stop offset="1" stop-color="#4da1ff"/>
+    <linearGradient id="linear-gradient" x1="-0.344" y1="-0.384" x2="1.556" y2="3.179" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f"/>
+      <stop offset="0.491" stop-color="#05d5ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#1ab1e5"/>
@@ -36,7 +37,10 @@
       <stop offset="0" stop-color="#c7edff"/>
       <stop offset="0.7" stop-color="#eaeeee"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-16" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-16" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f905f5"/>
+      <stop offset="1" stop-color="#4da1ff"/>
+    </linearGradient>
     <linearGradient id="linear-gradient-17" x1="1.245" y1="1.34" x2="-0.304" y2="-0.252" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#4da1ff"/>
       <stop offset="1" stop-color="#f905f5"/>
@@ -224,11 +228,11 @@
       <stop offset="1" stop-color="#392836" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="linear-gradient-183" x1="0" y1="0.499" x2="1" y2="0.499" xlink:href="#linear-gradient-14"/>
-    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.753" gradientTransform="translate(0 0)" xlink:href="#linear-gradient"/>
-    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.83" gradientTransform="translate(0 0)" xlink:href="#linear-gradient"/>
-    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.747" gradientTransform="translate(0 0)" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.753" gradientTransform="translate(0 0)" xlink:href="#linear-gradient-16"/>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.83" gradientTransform="translate(0 0)" xlink:href="#linear-gradient-16"/>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.747" gradientTransform="translate(0 0)" xlink:href="#linear-gradient-16"/>
   </defs>
-  <g id="Group_1590" data-name="Group 1590" transform="translate(-477 -1050)">
+  <g id="Group_1615" data-name="Group 1615" transform="translate(-477 -1050)">
     <g transform="matrix(1, 0, 0, 1, 477, 1050)" filter="url(#Path_2588)">
       <path id="Path_2588-2" data-name="Path 2588" d="M16,0H307a16,16,0,0,1,16,16V314a16,16,0,0,1-16,16H16A16,16,0,0,1,0,314V16A16,16,0,0,1,16,0Z" transform="translate(45 33)" fill="#fff"/>
     </g>
