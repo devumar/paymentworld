@@ -14,6 +14,155 @@
 <link rel="stylesheet" href="assets/font-awesome.min.css">
 <%= stylesheet_link_tag 'pages/contact' %>
 
+<style>
+  #main_header {
+    height: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    position: relative;
+  }
+  .log_main{
+    h1{
+      margin: 0;
+      line-height: 83px;
+    }
+    a{
+      text-decoration: none;
+    }
+    img{
+
+    }
+  }
+
+
+  .nav_link {
+    float: left;
+    position: relative;
+    z-index: 3;
+    padding-top: 33px;
+    ul{
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+    li{
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 36px;
+    }
+    a{
+      font-size: 18px;
+      text-decoration: none;
+      font-family: $font-Poppins;
+      color: #585858;
+    }
+  }
+
+
+  .nav_login{
+    position: relative;
+    z-index: 2;
+    ul{
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      position: relative;
+      top: 27px;
+    }
+    li{
+      display: inline;
+    }
+    a{
+      text-decoration: none;
+      display: inline-block;
+      font-family: $font-Poppins;
+      color: #585858;
+      font-size: 18px;
+
+    }
+    .signupbtn{
+      width: 125px;
+      height: 42px;
+      background-color: #F905F5;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 40px;
+      color: #fff;
+      font-family: $font-Poppins;
+      font-weight: 500;
+      margin-left: 15px;
+    }
+  }
+
+
+  .clear_e{
+    clear: both;
+  }
+
+
+  // dropdown style
+  .nav_link li:hover ul {
+    display: block;
+  }
+  .nav_link li ul {
+    background-color: #fff;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    margin-top: 90px;
+    left: -60px;
+    display: none;
+    width: 270px;
+    z-index: 9999;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+  }
+  .nav_link li ul::after{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 11px 11px 11px;
+    border-color: transparent transparent #fff transparent;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 120px;
+  }
+  .nav_link li ul li{
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 100%;
+    line-height: normal;
+  }
+  .nav_link li ul li:last-child{
+    padding-bottom: 0;
+  }
+  .sub_menu_list {
+    display: flex;
+  }
+  .sub_menu_icon{
+    width: 22%;
+    float: left;
+  }
+  .sub_menu_text{
+    width: 77%;
+    h3{
+      color: #185B6D;
+      font-family: $font-Poppins;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+    p{
+      font-size: 12px;
+      font-family: $font-Raleway;
+      color: #185B6D;
+    }
+
+  }
+</style>
+
 </head>
 <body>
 <%= render 'layouts/navbar_simple' %>
