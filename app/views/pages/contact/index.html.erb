@@ -161,158 +161,46 @@
   <img src="/assets/contact/map-img.png">
 </section>
 
-<footer id="footer_sec">
-  <div class="container_e">
-    <div class="row">
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Follow Us</h5>
-        </div>
-        <div class="social_link_f">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/contact/fb.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/contact/twitter-logo-button.svg">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/contact/linkedin-button.svg">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="add_link">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="/assets/contact/location-pointer.svg">
-                  United Kingdom
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/assets/contact/translation.svg">
-                English
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m3">
-        <div class="footer_heading">
-          <h5>Company</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
-            </li>
-            <li>
-              <a href="#">Terms</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Resources</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Developers</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Partner Program</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Products</h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Online Payments</a>
-            </li>
-            <li>
-              <a href="#">POS System</a>
-            </li>
-            <li>
-              <a href="#">Card Machines</a>
-            </li>
-            <li>
-              <a href="#">Email Payments</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col m2">
-        <div class="footer_heading">
-          <h5>Banking <span>Beta</span></h5>
-        </div>
-        <div class="footer_link">
-          <ul>
-            <li>
-              <a href="#">Fintech Banking</a>
-            </li>
-            <li>
-              <a href="#">E-Wallets</a>
-            </li>
-            <li>
-              <a href="#">Payment Card Programs</a>
-            </li>
-            <li>
-              <a href="#">Digital</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer_line_gray"></div>
-
-    <div class="copy_right_footer">
-      <ul>
-        <li>World Payments Ltd. 2019. All rights reserved.</li>
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-        <li>
-          <a href="#">Terms</a>
-        </li>
-        <li>
-          <a href="#">
-              Contact
-          </a>
-        </li>
-
-      </ul>
-    </div>
-
-  </div>
-</footer>
-
 </body>
+<%= render 'layouts/footer' %>
+<%=  %>
+  <%= javascript_include_tag 'slick.min.js' %>
+<script type="text/javascript">
+ $(document).ready(function() {
+  var slider2 = $('.responsive').slick({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 50000,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+  });
+
+  //Hide the Previous button.
+  $('.slick-prev').hide();
+
+  slider2.on('afterChange', function(event, slick, currentSlide) {
+  console.log(currentSlide);
+    //If we're on the first slide hide the Previous button and show the Next
+    if (currentSlide === 0) {
+      $('.slick-prev').hide();
+      $('.slick-next').show();
+    }
+    else {
+      $('.slick-prev').show();
+    }
+
+    //If we're on the last slide hide the Next button.
+    if (slick.slideCount === currentSlide + 1) {
+      $('.slick-next').hide();
+    }
+  });
+});
+
+</script>
 <script src="assets/materialize.min.js"></script>
 </html>
