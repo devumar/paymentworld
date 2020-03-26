@@ -15,7 +15,7 @@
 <%= stylesheet_link_tag 'pages/contact' %>
 
 <style>
-  body {
+  #contact_nav_bar {
     width: 1170px;
     margin: 0 auto;
   }
@@ -28,13 +28,19 @@
     max-height: 430px;
   }
 
+  #contact_info {
+    margin-top: 100px;
+  }
+
 </style>
 
 </head>
 
 <body>
 <header id="contact_bg">
-<%= render 'layouts/navbar' %>
+ <div id="contact_nav_bar">
+  <%= render 'layouts/navbar' %>
+ </div>
 <section id="contact_sec">
   <div class="container">
     <div class="row">
