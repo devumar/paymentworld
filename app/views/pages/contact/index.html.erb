@@ -15,11 +15,16 @@
 <%= stylesheet_link_tag 'pages/contact' %>
 
 <style>
-
+  #contact_bg {
+    background: url("/assets/svg/slider_background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
 </style>
 
 </head>
 <body>
+<header id="contact_bg">
 <%= render 'layouts/navbar' %>
 <section id="contact_sec">
   <div class="container">
@@ -33,7 +38,7 @@
         </div>
       </div>
     </div>
-
+</header>
     <div class="row">
       <div class="col-md-5 text-center">
          <div class="contact-info">
