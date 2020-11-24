@@ -1,607 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="World Payments is a unique online payment gateway that specializes in offering a digital world to the businesses and professionals. Your online transactions are just a click away.">
-<meta name="author" content="World Payments">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>World Payment landing page</title>
+    <!-- google font -->
 
-<title>World Payments | Leading High-Risk Payment Processor</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
-<%= stylesheet_link_tag 'pages/bootstrap.min.css' %>
-<%= stylesheet_link_tag 'pages/navbar' %>
-<%= stylesheet_link_tag 'pages/home' %>
-<%= stylesheet_link_tag 'pages/footer' %>
-<%= stylesheet_link_tag 'slick-theme.css' %>
-<%= stylesheet_link_tag 'slick.css' %>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-<style>
-  #main_home_bg {
-    background-image: url("/assets/svg/home_header_bg.svg");
-    min-height: 770px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: contain;
-  }
-
-  #why_use_virtual_sec{
-    background-image: url("/assets/svg/why_worldpayments_bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0;
-  }
-
-  .button {
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 18px;
-    width: 125px;
-    height: 42px;
-    line-height: 42px;
-    text-decoration: none;
-    background-color: #f905f5;
-    color: #fff;
-    border-radius: 42px;
-    padding: 10px 14px;
-    border: 0;
-  }
-
-  .button:hover {
-    text-decoration: none;
-    background-color: #fff;
-    color: #585858;
-  }
-
-  .get-button {
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 18px;
-    width: 125px;
-    height: 42px;
-    line-height: 42px;
-    text-decoration: none;
-    background-color: #f905f5;
-    color: #fff;
-    border-radius: 42px;
-    padding: 10px 14px;
-    border: 0;
-  }
-
-  .get-button:hover {
-    text-decoration: none;
-    background-color: #fff;
-    color: #585858;
-  }
-
-  .sales-button {
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 18px;
-    width: 125px;
-    height: 42px;
-    line-height: 42px;
-    text-decoration: none;
-    background-color: #f905f5;
-    color: #fff;
-    border-radius: 42px;
-    padding: 10px 14px;
-    border: 0;
-  }
-
-  .sales-button:hover {
-    text-decoration: none;
-    background-color: #fff;
-    color: #585858;
-  }
-
-  .login_button {
-    background-color: #58585800;
-  }
-
-  .nav_btn a {
-    margin-left: 110px;
-  }
-
-  .ready_to_get_btn {
-    margin-left: 80px;
-  }
-
-
-  @media only screen and (max-width: 767px)  {
-    #main_home_bg {
-      background-image: url("/assets/svg/home_header_mobile_bg.svg");
-      background-size: contain;
-    }
-    .home_banner_heading {
-      text-align: center;
-    }
-    .header-button {
-      text-align: center;
-    }
-    .header-button a {
-      position:relative;
-      width:100%;
-      height:100%;
-      top:0;
-      left: 0;
-      z-index: 1;
-    }
-    .d_banking_link {
-      position:absolute;
-      width:100%;
-      height:100%;
-      top:0;
-      left: 0;
-      z-index: 1;
-      margin-top: 20px;
-    }
-    .d_banking_link a {
-      font-size: 14px;
-    }
-    .d_banking_link {
-      text-align: center;
-    }
-  }
-
-
-</style>
-
+    <!-- all css link -->
+    <link rel="stylesheet" href="assets/all.min.css">
+	<link rel="stylesheet" href="assets/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/swiper.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
 </head>
 <body>
-<header id="main_home_bg">
-  <div class="container_e main_home_bg">
-    <%= render 'layouts/navbar' %>
-    <div class="row">
-      <div class="col-md-5">
-        <div class="home_banner_text_part">
-          <div class="d_banking_link">
-            <a href="/contact">
-              <span style="background-color: #24b47e;">NEW</span>
-              Get Started Today! >
-            </a>
-          </div>
-          <div class="home_banner_heading">
-            <h3>
-              Leading High-Risk Payment Processor!
-            </h3>
-            <p>
-                World Payments is a unique online payment gateway that specializes in offering a digital world to the businesses and professionals. Your online transactions are just a click away.
-            </p>
-          </div>
-          <div class="header-button">
-            <a href="https://www.worldpayments.com/contact" class="get-button">Start Today</a>
-          </div>
-          <div class="plus_icon desktop">
-            <img src="/assets/home/home-plus.svg">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 phone_routate">
-        <div class="home_banner_img_part">
-          <img class="block_img" src="/assets/home/mins-icon.svg">
-          <img src="/assets/home/cir-icon.svg">
-        </div>
-            <div class="home_banner_img_phone">
-      <img src="/assets/home/home-banner-phone.svg">
-    </div>
-      </div>
-
-    </div>
-  </div>
-<header>
-
-<!-- Online Payments Solutions Section | Desktop Version -->
-<section id="online_payments" style="margin-top: 215px;" class="desktop">
-
- <div>
-  <h1 style="color:#585858; text-align:center; font-size:30px; font-family:poppins; font-weight:500;">
-   Online Payment Solutions<br>You Can Rely On
-  </h1>
-  <img src="/assets/svg/after_Title_Icons_Bar.svg" style="display:block; margin-left:auto; margin-right:auto; margin-top:25px;">
- </div>
-
- <div style="display:flex; justify-content:center; align-items:center;">
-  <div style="float:left; margin-top:30px;">
-   <img src="/assets/svg/Accept%20Card%20Payments%20Online.svg" style="width:375px;height:501px;">
-  </div>
-
-  <div style="float:left; margin-top:10px;">
-   <img src="/assets/svg/Payments%20by%20Virtual%20Terminal.svg" style="width:375px;height:501px;">
-  </div>
-
-  <div style="float:left; margin-top:30px;">
-   <img src="/assets/svg/Intelligent%20Business%20Reporting.svg" style="width:375px;height:501px;">
-  </div>
-
- </div>
-</section>
-
-<!-- Online Payments Solutions Section | Mobile Version -->
-
-<section id="online_payments" class="mobile" style="margin-top:90px;">
-  <div style="text-align: center;">
-    <div style="padding: 35px;">
-      <h1 style="color:#585858; font-size:22px; font-family:poppins; font-weight:500; line-height: inherit;">
-        Online Payment Solutions You Can Rely On </h1>
-      <img src="/assets/svg/after_Title_Icons_Bar.svg" style="margin-top: 10px;">
-    </div>
-    <div>
-      <div style="margin-top: -55px;">
-        <img src="/assets/svg/Accept%20Card%20Payments%20Online.svg" style="width:400px;height:534px;">
-      </div>
-      <div style="margin-top: -70px;">
-        <img src="/assets/svg/Payments%20by%20Virtual%20Terminal.svg" style="width:400px;height:534px;">
-      </div>
-      <div style="margin-top: -70px;">
-        <img src="/assets/svg/Intelligent%20Business%20Reporting.svg" style="width:400px;height:534px;">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Checkout Experience Section | Section after online payments solutions -->
-
-<section id="checkout_sec" class="desktop">
-
- <div style="margin-top:60px;">
-
-  <h1 style="color:#585858; text-align:center; font-size:30px; font-family:poppins; font-weight:500;">
-  An Exemplary Checkout Experience</h1>
-
-  <img src="/assets/svg/after_Title_Icons_Bar.svg" style="display:block; margin-left:auto; margin-right:auto; margin-top: 25px">
-
- </div>
-
- <div style="margin:30px;">
-  <h2 style="color:#585858; margin-left:164px; font-size:25px; font-family:poppins; font-weight:500;">
-  One platform, many solutions</h2>
-
-  <p style="color:#585858; margin-left:164px; font-size:20px; font-family:raleway; font-style:regular;">
-  World Payments is the answer to your every online transaction concerns</p>
- </div>
-
- <div style="float:left; position:relative; left:-3%; margin-top:30px; margin-right:40px;">
- <img src="/assets/svg/online_store_img.svg">
- </div>
-
- <div>
-  <ul>
-   <li style="list-style-type:none; padding:20px;">
-    <img src="/assets/svg/Premium%20Banking%20Network.svg">
-   </li>
-
-   <li style="list-style-type:none; padding:20px;">
-    <img src="/assets/svg/Unique%20Localized%20Methods.svg">
-   </li>
-
-   <li style="list-style-type:none; padding:20px;">
-    <img src="/assets/svg/Traffic%20Management.svg">
-   </li>
-
-   <li style="list-style-type:none; padding:20px;">
-    <img src="/assets/svg/PCI%20Level%20Environment.svg">
-   </li>
-  </ul>
- </div>
-
-</section>
-
-<!-- Checkout Experience Section | Mobile Version -->
-
-<section id="checkout_sec" class="mobile">
-  <div style="text-align: center; margin-bottom: 35px;">
-    <div style="margin:30px;">
-      <h1 style="color:#585858; font-size:22px; font-family:poppins; font-weight:500; margin: 0;">
-        An Exemplary Checkout Experience</h1>
-      <img src="/assets/svg/after_Title_Icons_Bar.svg" style="margin-top: 10px;">
-    </div>
-    <div style="margin:30px;">
-      <h2 style="color:#585858; font-size: 20px; font-family:poppins; font-weight:500;">
-        One platform, many solutions</h2>
-      <p style="color:#585858; font-size: 18px; font-family:raleway; font-style:regular;">
-        World Payments is the answer to your every online transaction concerns</p>
-    </div>
-    <div style="display: inline-block;">
-      <ul style="text-align: left; margin-left: -30px;">
-        <li style="list-style-type:none;">
-          <img src="/assets/home/premium_banking_network_mobile.svg">
-        </li>
-        <li style="list-style-type:none;">
-          <img src="/assets/home/unique_localized_methods_mobile.svg" style="margin-top: 30px;">
-        </li>
-        <li style="list-style-type:none;">
-          <img src="/assets/home/traffic_management_mobile.svg" style="margin-top: 30px;">
-        </li>
-        <li style="list-style-type:none;">
-          <img src="/assets/home/pci_level_environment_mobile.svg" style="margin-top: 30px;">
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
 
 
-<!-- Call to Action Section | After Checkout Experience Section -->
 
-<section id="call_to_action_bar" style="margin-bottom: 250px" class="desktop">
 
-<div>
- <div>
-  <img src="/assets/svg/call_to_action_bar.svg" style="display:block; margin-left:auto; margin-right:auto;">
- </div>
-
- <div style="display:flex; justify-content:center; align-items:center; position:relative; margin-top:-300px">
-  <h1 style="color:#fff; text-align:center; font-size:30px; font-family:poppins; font-weight:500;">Get Your Payment Gateway Today!</h1>
- </div>
-
- <div style="display:flex; justify-content:center; align-items:center;">
-  <a href="/contact" class="button" style="padding: 0; width: 180px; text-align: center;">Inquire Now</a>
- </div>
-
-</div>
-</section>
-
-<!-- Hide this section
-<section  class="our_services_div mobile">
-  <div class="container_e   ">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="our_services">
-          <h3>
-            Our Services
-          </h3>
-          <div class="pink_bar">
-          </div>
-          <div class="pink_bar">
-          </div>
-          <div class="pink_bar">
-          </div>
-          <p>
-            World Payments offer a range of interactive services to facilitate all your online transactions, Our services include different online and telephone payment methods, The business are supported by the POS system to give control to the user.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="row responsive ">
-      <div class="service_list">
-        <div class="col-md-7 services_panel">
-          <img src="/assets/home/payments.svg" class="">
-          <h3>Payments</h3>
-          <div class="blue_bar"></div>
-          <div class="blue_bar"></div>
-          <div class="blue_bar"></div>
-          <p>Online payment processing for internet businesses is a suite of payment APIs that powers commerce for online businesses of all sizes.</p>
-          <span><a href="/online_payments">Learn More</a></span>
-        </div>
-      </div>
-      <div class="service_list">
-        <div class="col-md-7 services_panel">
-          <img src="/assets/home/card_machine.svg" class="">
-          <h3>Card Machines</h3>
-          <div class="blue_bar"></div>
-          <div class="blue_bar"></div>
-          <div class="blue_bar"></div>
-          <p>World Payments offer you ease of access and smarter use of card machines for secure transactions in your business.</p>
-          <span><a href="/card_machine">Learn More</a></span>
-        </div>
-      </div>
-      <div class="service_list">
-        <div class="col-md-7 services_panel">
-          <img src="/assets/home/pos.svg" class="">
-          <h3>POS System</h3>
-          <div class="blue_bar"></div>
-          <div class="blue_bar"></div>
-          <div class="blue_bar"></div>
-          <p>Point of Sale Software is a powerful program that enable user to have the completely control of sales. The Pos software can be operate either by keyboard or by touch screen.</p>
-          <span><a href="/pos">Learn More</a></span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="our_services_sec" class="desktop">
-  <div class="container_e">
-    <div class="row">
-        <div class="col-md-5">
-          <div class="services_heading">
-            <h3>
-              <img src="/assets/home/services-icon.svg">
-              OUR SERVICES
-            </h3>
-            <p>
-               World Payments offer a range of interactive services to facilitate all your online transactions. Our services include different online and telephone payment methods. The businesses are supported by the POS system to give control to the user.
-            </p>
-            <form>
-              <div class="email_f">
-                <input type="email" placeholder="Email">
-              </div>
-              <div class="get_start">
-                <button>GET STARTED</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-7">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="ser_payment_box poTop">
-                <img src="/assets/home/ser-payment.svg">
-                <h3>Payments</h3>
-                <p>World payments give you a variety of online payment systems that can be done through the card or on spot through card machines or even NFC payments. Payment APIs are employed to power the commerce world.
-                </p>
-                <button><a href="/online_payments" class="text-white">Learn More</a></button>
-              </div>
+    <!-- banner section start here -->
+    <section class="banner">
+        <div class="banner_area">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12">
+                    <div class="banner_content">
+                        <div class="banner_inner">
+                            <div class="banner_title">
+                                <h4>world payments</h4>
+                            </div>
+                            <div class="banner_main">
+                                <div class="banner_content_top">
+                                    <span>new</span>
+                                    <p>Introducing the new era of payments ></p>
+                                </div>
+                                <div class="banner_body">
+                                    <h2>Digital Banking and online payments</h2>
+                                    <p>World Payments provide a unique online payment gateway in an ever-growing digital world.</p>
+                                </div>
+                                <div class="banner_footer">
+                                    <select name="" id="">
+                                        <option value="">+44</option>
+                                        <option value="">+44</option>
+                                        <option value="">+44</option>
+                                    </select>
+                                    <input type="text">
+                                    <span><a href="#">Per Register</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="banner_fontpage_image">
+                        <img src="assets/images/banner.png" alt="images">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-              <div class="ser_telephone_box">
-                <img src="/assets/home/ser-telephone.svg">
-                <h3>Telephone Paymnets</h3>
-                <p>In our pursuit of providing more services, we make the process of taking credit or debit card payments via phone through card machines.
-                </p>
-                <button><a href="/telephone_payments" class="text-white">Learn More</a></button>
-              </div>
+        </div>
+    </section>
+    <!-- banner section ending here -->
 
-              <div class="ser_pos_box mTop">
-                <img src="/assets/home/ser-pos.svg">
-                <h3>POS System</h3>
-                <p>Point of Sale is a powerful Software that is interactive & simple enough to aid the user to have ample control of sales. POS offers operations both through keyboards and touch screens.
-                </p>
-                <button><a href="/pos" class="text-white">Learn More</a></button>
-              </div>
+
+    <!-- info section start here -->
+    <section class="info">
+        <div class="container">
+            <div class="info_title">
+                <h4>A unified platform for payments</h4>
             </div>
-          </div>
         </div>
-    </div>
+        <marquee onmouseover="stop()" onmouseout="start()" scrollamount="10">
+            <div class="info_area">
+               <ul class="d-flex">
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images/info/info1.svg" alt="img">
+                        </div>
+                    </li>
+                     <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info2.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                           <img src="assets/images//info/info3.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info4.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info5.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info6.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images/info/info1.svg" alt="img">
+                        </div>
+                    </li>
+                     <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info2.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                           <img src="assets/images//info/info3.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info4.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info5.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info6.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images/info/info1.svg" alt="img">
+                        </div>
+                    </li>
+                     <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info2.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                           <img src="assets/images//info/info3.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info4.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info5.svg" alt="img">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-item">
+                            <img src="assets/images//info/info6.svg" alt="img">
+                        </div>
+                    </li>
 
-  </div>
-</section>
--->
+               </ul>
+           </div>
+     </marquee>
+    </section>
+    <!-- info section ending here -->
 
-<section id="super_charge_sec" class="desktop">
-  <div class="container_e">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="super_charge_text">
-          <h3>
-            Check out how easy our integration is!
-          </h3>
-          <p>
-             Internet commerce has become easier than before with the help of our flexible and powerful tools. You know you can trust us if you intend to do any of the following:</p>
-             <ul>
-               <li class="li_style">On-demand market place</li>
-               <li class="li_style">E-commerce store</li>
-               <li class="li_style">Subscription service</li>
-               <li class="li_style">Crowdfunding platform</li>
-             </ul>
 
-            <p class="triple-pad-bottom">Our APIs that are designed with careful operations and workings helps you in creating state-of-the-art services for all your users.</p>
-          <form class="desktop">
-            <div class="email_f_super">
-              <input type="email" placeholder="Email">
+
+    <!-- experience section start here -->
+    <section class="experience">
+        <div class="experience_section_area">
+            <div class="container">
+                <div class="exp_title">
+                    <h4>Get hassle free payment experiences</h4>
+                    <p>World Payments is the answer to your every online
+                    <br>transaction concerns</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="round"><img src="assets/images/round/round.png" alt=""></div>
+                        <div class="exp_image_section">
+                            <img src="assets/images/phone.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="exp_inner_Section">
+                            <div class="exp_item">
+                                <div class="exp_icon">
+                                    <img src="assets/images/icon1.png" alt="images">
+                                </div>
+                                <div class="exp_content">
+                                    <h5>Premium Banking Network</h5>
+                                    <p>Authentication standard to help clienta void fraudlent activity</p>
+                                </div>
+                            </div>
+                            <div class="exp_item">
+                                <div class="exp_icon">
+                                    <img src="assets/images/icon4.png" alt="images">
+                                </div>
+                                <div class="exp_content">
+                                    <h5>Unique Localize Methods</h5>
+                                    <p>Widest selection of acquiring banks & financial institutions</p>
+                                </div>
+                            </div>
+                            <div class="exp_item">
+                                <div class="exp_icon">
+                                    <img src="assets/images/icon2.png" alt="images">
+                                </div>
+                                <div class="exp_content">
+                                    <h5>Traffic Management</h5>
+                                    <p>Intuitive payment funnel increasses revenue and inprove user experience</p>
+                                </div>
+                            </div>
+                            <div class="exp_item">
+                                <div class="exp_icon">
+                                    <img src="assets/images/icon3.png" alt="images">
+                                </div>
+                                <div class="exp_content">
+                                    <h5>PCI Lavel Enviroment</h5>
+                                    <p>Accept process and transmit cardholder data securely with our robuts PCI Enviroment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="get_start">
-              <button>GET STARTED</button>
+        </div>
+    </section>
+    <!-- experience section ending here -->
+
+
+    <!-- managing section start here -->
+    <section class="manage_section">
+        <div class="managing_area">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-12">
+                    <div class="manage_content">
+                        <h2>Manage your finances with one platform</h2>
+                        <p>Get a unique online payment gateway in an ever-growing digital world where businesses and professionals prefer transactions to be done at the click of the finger. </p>
+                        <p>Manage all your business activity in one back office, which is user-friendly, and unrivalled.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="manage_image_inner">
+                        <div class="animations">
+                            <div class="box">
+                                <span style="--i:1"></span>
+                                <span style="--i:2"></span>
+                                <span style="--i:3"></span>
+                                <span style="--i:4"></span>
+                                <span style="--i:5"></span>
+                                <span style="--i:6"></span>
+                            </div>
+                        </div>
+                        <div class="image_item">
+                            <div class="image1">
+                                <img src="assets/images/Manage.png" alt="images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </form>
         </div>
-      </div>
-    <div class="animate_img_div">
-      <img  class="animate_img" src="/assets/home/anmation.svg">
-    </div>
-      <div class="col-md-7"></div>
-    </div>
-  </div>
+    </section>
+    <!-- managing section  ending here -->
 
-</section>
 
-<!-- Hide this section
-<section id="developers_first_sec" >
-  <div class="container_e">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="developers_first_heading">
-          <h3>
-              Developers World
-          </h3>
-          <p>
-            Online payment is an intricate system that is based on codes and not on finances. At World Payments, we strive to work with and around abstractions that are multi-dimensional and composable, that ensures user-friendly and flexible integrations. Use World Payments in the matter of minutes for your transactions knowing that we have eliminated all the complexities.
-          </p>
+    <!-- global section start here -->
+    <section class="global_section">
+        <div class="global_area">
+            <div class="container">
+                <div class="global_title">
+                    <h4>Why Use WorldPayments</h4>
+                    <p>World Payments gives you easier and quick access without getting lost in technical jargon. Our user-friendly interface is designed, keeping in mind the requirements and usage of customers. Your payment gateway will do all the tasks needed giving you freedom and relaxation.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="global_content">
+                            <div class="global_list">
+                                <ul>
+                                    <li>Free USD Checking Account</li>
+                                    <li>Free EURO IBAN Account</li>
+                                    <li>Interbank FX Rates</li>
+                                    <li>Free Bank Transfers in 25 currencies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="global_image">
+                            <img src="assets/images/global.png" alt="images">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="tab_list_e">
-          <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#menu1">Payments</a></li>
-            <li><a data-toggle="tab" href="#menu2">Customer</a></li>
-            <li><a data-toggle="tab" href="#menu3">Subscription</a></li>
-            <li><a data-toggle="tab" href="#menu4">Reporting</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-8 tab_content_bg">
-        <div class="tab-content ">
-          <div id="menu1" class="tab-pane tab_pane_e  in active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div id="menu2" class="tab-pane tab_pane_e fade">
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div id="menu3" class="tab-pane tab_pane_e fade">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-          </div>
-          <div id="menu4" class="tab-pane tab_pane_e fade">
-            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
+    </section>
 
-<!-- Why Choose Worldpayments | Copied from telephone payments. -->
 
-<section id="why_use_virtual_sec">
-  <div class="container">
-    <div class="w_use_virtual_heading">
-      <h3>Why Use WorldPayments</h3>
-      <p>World Payments gives you easier and quick access without getting lost in technical jargon. Our user-friendly interface is designed, keeping in mind the requirements and usage of customers. Your payment gateway will do all the tasks needed giving you freedom and relaxation.</p>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="w_use_virtual_icon">
-          <img src="/assets/telephone_payments/w_use_icon-1.svg">
-          <h3>History of Payments</h3>
-          <p>Real-time reports of payment history help to keep a track of every payment.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="w_use_virtual_icon">
-          <img src="/assets/telephone_payments/w_use_icon-2.svg">
-          <h3>Protection of Payments</h3>
-          <p>A highly developed system of risk management for a state-of-the-art protection system against fraud.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="w_use_virtual_icon">
-          <img src="/assets/telephone_payments/w_use_icon-3.svg">
-          <h3>System Access</h3>
-          <p>Our web interface is secure enough to make payments over phone easily.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- all link -->
 
-<section id="ready_to_get_sec" >
-  <div class="container_e">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="ready_to_get_text">
-          <h3>
-              Ready To Get Started?
-          </h3>
-          <p>
-            Get in touch or create an account.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="ready_to_get_btn">
-          <a href="https://www.worldpayments.com/contact" class="sales-button">Contact Sales ></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <script src="assets/jquery-3.4.1.min.js"></script>
+    <script src="assets/way.js"></script>
+    <script src="assets/fontawesome.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/swiper.min.js"></script>
+    <script src="assets/apps.js"></script>
 
 </body>
+
 <%= render 'layouts/footer' %>
 <%=  %>
   <%= javascript_include_tag 'slick.min.js' %>
