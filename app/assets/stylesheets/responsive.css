@@ -22,14 +22,14 @@
 }
 @media screen and (max-width: 576px) {
     .banner .banner_area .banner_fontpage_image img{
-    	width: 100%;
+    	display: none;
 	}
 }
 @media screen and (max-width: 576px) {
    .banner .banner_area .banner_content .banner_inner .banner_main .banner_body h2 {
 	    font-weight: 700;
 	    font-size: 24px;
-	    padding-bottom: 16px;
+	    padding: 50px;
 	    line-height: 41px;
 	    font-family: 'Poppins', sans-serif;
 	}
@@ -78,7 +78,7 @@
 @media screen and (max-width: 786px) {
     .banner .banner_area .banner_content .banner_inner .banner_title h4 {
 	    padding-bottom: 39px;
-	    
+
 	}
 }
 
@@ -87,4 +87,3 @@
     	padding: 50px;
 	}
 }
-
