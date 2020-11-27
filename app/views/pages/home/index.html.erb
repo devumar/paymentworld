@@ -303,45 +303,118 @@
     </section>
     <!-- global section ending here -->
 
+
+        <!-- footer section start here -->
+        <footer class="footer_section">
+            <div class="footer_area">
+                <div class="container">
+                    <div class="footer_wrapper">
+                        <div class="footer_innter">
+                            <div class="footer_item">
+                                <div class="footer_title">
+                                    <h6>Follow Us</h6>
+                                </div>
+                                <div class="social_icon">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="location">
+                                    <i class="fas fa-map-pin"></i>
+                                    <span>United Kingdom</span>
+                                </div>
+                                <div class="language">
+                                    <i class="fas fa-globe-asia"></i>
+                                    <span>English</span>
+                                </div>
+                            </div>
+                            <div class="footer_item">
+                                <div class="footer_title">
+                                    <h6>Company</h6>
+                                </div>
+                                <div class="footer_menu_list">
+                                    <ul>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Partner Program</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_item">
+                                <div class="footer_title">
+                                    <h6>Resources</h6>
+                                </div>
+                                <div class="footer_menu_list">
+                                    <ul>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Terms</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_item">
+                                <div class="footer_title">
+                                    <h6>Products</h6>
+                                </div>
+                                <div class="footer_menu_list">
+                                    <ul>
+                                        <li><a href="#">Payments</a></li>
+                                        <li><a href="#">Billing</a></li>
+                                        <li><a href="#">Connect</a></li>
+                                        <li><a href="#">Global</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_item">
+                                <div class="footer_title">
+                                    <h6>Banking</h6>
+                                </div>
+                                <div class="footer_menu_list">
+                                    <ul>
+                                        <li><a href="#">Fintech Banking</a></li>
+                                        <li><a href="#">E-Wallets</a></li>
+                                        <li><a href="#">Payment Card Programs</a></li>
+                                        <li><a href="#">Open Source</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_bottom_section">
+                            <div class="row">
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-8">
+                                    <div class="footer_bottom_content">
+                                        <ul>
+                                            <li><a href="#">&#169; World Payments Ltd. 2019. All rights reserved. </a></li>
+                                            <li><a href="#">Privacy</a></li>
+                                            <li><a href="#">Terms</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section ending here -->
+
+
+
+
+
+        <!-- all link  -->
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/way.js"></script>
+        <script src="assets/js/fontawesome.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/apps.js"></script>
+
 </body>
-<%= render 'layouts/footer' %>
-<%=  %>
-  <%= javascript_include_tag 'slick.min.js' %>
-<script type="text/javascript">
- $(document).ready(function() {
-  var slider2 = $('.responsive').slick({
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 50000,
-    pauseOnFocus: false,
-    pauseOnHover: false,
-    pauseOnDotsHover: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-
-  });
-
-  //Hide the Previous button.
-  $('.slick-prev').hide();
-
-  slider2.on('afterChange', function(event, slick, currentSlide) {
-  console.log(currentSlide);
-    //If we're on the first slide hide the Previous button and show the Next
-    if (currentSlide === 0) {
-      $('.slick-prev').hide();
-      $('.slick-next').show();
-    }
-    else {
-      $('.slick-prev').show();
-    }
-
-    //If we're on the last slide hide the Next button.
-    if (slick.slideCount === currentSlide + 1) {
-      $('.slick-next').hide();
-    }
-  });
-});
-
-</script>
 </html>
