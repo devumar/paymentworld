@@ -126,6 +126,7 @@ body {
 }
 .info_area{
   animation:  info 20s linear infinite;
+  width: max-content;
 }
 @keyframes info {
 
