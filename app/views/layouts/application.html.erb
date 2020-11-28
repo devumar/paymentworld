@@ -3,11 +3,11 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    <%= content_for?(:title) ? yield(:title) : "World Payment" %>
+    <%= content_for?(:title) ? yield(:title) : "World Payments" %>
   </title>
-  <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "World Payment" %>">
+  <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "World Payments" %>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %> 
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
@@ -22,5 +22,3 @@
 </body>
 <%= content_for?(:extra_scripts) ? yield(:extra_scripts) : nil %>
 </html>
-
-
