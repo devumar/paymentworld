@@ -7,9 +7,12 @@
   </title>
   <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "World Payments" %>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'jquery-3.4.1.min.js' %>
+
 
 </head>
 
