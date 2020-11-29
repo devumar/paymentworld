@@ -91,6 +91,7 @@ body {
  flex-wrap: wrap;
  justify-content: space-between;
  align-items: center;
+ width: -webkit-max-content;
 }
 .banner .banner_area .banner_content .banner_inner .banner_main .banner_footer select {
  border: none;
