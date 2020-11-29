@@ -96,11 +96,17 @@
 }
 
 @media screen and (max-width: 576px) {
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer {
+	    width: fit-content;
+	}
+
+}
+@media screen and (max-width: 576px) {
 	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer span a {
 	    background: #444768;
 	    color: #fff;
 	    padding: 10px 21px;
-	    display: flex;
+	    display: block;
 	    border-radius: 20px;
 	    font-weight: 700;
 	    text-decoration: none;
