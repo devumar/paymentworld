@@ -39,14 +39,18 @@ body {
  padding-bottom: 140px;
 }
 .banner .banner_area .banner_content .banner_inner .banner_main .banner_content_top {
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- background: #0000001a;
- padding: 4px 10px;
- border-radius: 20px;
- color: #fff;
- margin-bottom: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-items: center;
+  background: #0000001a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 26px;
 }
 .banner .banner_area .banner_content .banner_inner .banner_main .banner_content_top span {
  margin: 0;
