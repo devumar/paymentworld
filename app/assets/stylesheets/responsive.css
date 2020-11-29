@@ -95,6 +95,14 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer input {
+	    background: #E8E8E8;
+	    outline: none;
+	    border: none;
+	    width: 170px;
+	}
+}
 
 @media screen and (max-width: 576px) {
 	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer {
