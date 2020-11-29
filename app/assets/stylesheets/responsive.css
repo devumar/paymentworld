@@ -20,11 +20,7 @@
     	display: none;
 	}
 }
-@media screen and (max-width: 576px) {
-    .banner .banner_area .banner_fontpage_image img{
-    	display: none;
-	}
-}
+
 @media screen and (max-width: 576px) {
    .banner .banner_area .banner_content .banner_inner .banner_main .banner_body h2 {
 	    font-weight: 700;
@@ -35,24 +31,263 @@
 	}
 }
 @media screen and (max-width: 576px) {
-   .banner .banner_area .banner_title h4 {
-	    text-align: center;
-      padding-top: 10px;
+    .banner .banner_area {
+   	 	padding: 0px 20px 0px 20px;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.banner .banner_area .banner_content {
+	    padding-top: 61px;
 	}
 }
+@media screen and (max-width: 768px) {
+	.experience {
+	    background-color: #F6F9FC;
+	    padding: 80px 0px 0px 0px;
+	    overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.global_section {
+	    padding: 60px 0px 0px 0px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.global_section .global_area .global_title p {
+	    padding-bottom: 50px;
+	    font-size: 14px;
+	    line-height: 28px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	.banner_fontpage_image {
+   	 margin-right: -2px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.global_section .global_area {
+	    padding-bottom: 60px;
+	}
+}
+
 @media screen and (max-width: 576px) {
-   .banner .banner_area .banner_content .banner_inner .banner_main .banner_content_top {
-     display: flex;
-     text-align: center;
-     width: 356px;
-     font-size: 10px;
+	.banner .banner_area .banner_content {
+	    width: 325px;
+	    margin: auto;
+	    text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_content_top p {
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer span a {
+	    background: #444768;
+	    color: #fff;
+	    padding: 10px 21px;
+	    display: block;
+	    border-radius: 20px;
+	    font-weight: 700;
+	    text-decoration: none;
+	    font-size: 13px;
+	}
+
+}
+@media screen and (max-width: 576px) {
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer input {
+	    background: #E8E8E8;
+	    outline: none;
+	    border: none;
+	    max-width: 123px;
+	    padding: 7px 0px;
+	}
+
+}
+@media screen and (max-width: 576px) {
+	.banner .banner_area .banner_content .banner_inner .banner_main {
+    	padding-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+	.banner_fontpage_image {
+    	margin-right: -20px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.global_section .global_area .global_content .global_list ul {
+	    width: 334px;
+	}
+}
+@media screen and (max-width: 425px){
+	.global_section .global_area .global_content .global_list {
+    	padding-top: 0px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.global_section .global_area .global_title h4 {
+    	font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content {
+	    width: 275px;
+
+	}
+}
+@media screen and (max-width: 320px){
+	.banner_fontpage_image {
+   	 	margin-right: -21px;
+	}
+}
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content {
+    	padding-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_content_top p {
+	    font-size: 10px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_body h2 {
+	    font-weight: 700;
+	    font-size: 19px;
+	    padding-bottom: 20px;
+	    line-height: 27px;
+	    font-family: 'Poppins', sans-serif;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer span a {
+	    background: #444768;
+	    color: #fff;
+	    padding: 11px 21px;
+	    display: block;
+	    border-radius: 20px;
+	    font-weight: 700;
+	    text-decoration: none;
+	    font-size: 11px;
+	}
+}
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer input {
+	    max-width: 90px;
+	    padding: 7px 0px;
+	}
+
+}
+@media screen and (max-width: 320px){
+	.banner .banner_area .banner_content .banner_inner .banner_main .banner_body p {
+    font-family: 'Raleway', sans-serif;
+    padding: 14px 0px;
+    line-height: 29px;
+}
+
+}
+@media screen and (max-width: 320px){
+	 .banner .banner_area .banner_content .banner_inner .banner_main .banner_content_top {
+
+    margin-bottom: 37px;
+}
+
+
+}
+@media screen and (max-width: 320px){
+	.global_section .global_area .global_content .global_list ul {
+	    padding: 0;
+	    width: 280px;
+	    margin: auto;
+	}
+
+}
+@media screen and (max-width: 320px){
+	.global_section .global_area .global_content .global_list ul li {
+	    font-size: 12px;
+	}
+
+}
+
+
+
+/* ================= experience section start here =========== */
+
+
+@media screen and (max-width: 992px) {
+    .experience .experience_section_area .exp_inner_Section {
+       margin-top: 140px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .experience .experience_section_area .exp_inner_Section {
+     padding-top: 140px;
    }
 }
 @media screen and (max-width: 420px) {
-    .experience .experience_section_area .exp_inner_Section .exp_item .exp_icon {
-   		margin: auto;
+    .experience .experience_section_area .exp_title p {
+	    font-family: 'Raleway', sans-serif;
+	    color: #33333373;
+	    font-size: 14px;
+	    margin-bottom: -70px;
 	}
 }
+@media screen and (max-width: 420px) {
+    .experience .experience_section_area .exp_image_section img {
+	    margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+    .experience .experience_section_area .exp_title h4 {
+	    font-family: 'Poppins', sans-serif;
+	    margin-bottom: 15px;
+	    font-size: 20px;
+	    font-weight: 700;
+	    line-height: 26px;
+	    text-transform: capitalize;
+	}
+}
+
+
+@media screen and (max-width: 420px) {
+    .experience .experience_section_area .exp_inner_Section .exp_item .exp_content h5 {
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Poppins', sans-serif;
+	    font-size: 18px;
+	    margin-bottom: 10px;
+   }
+}
+
 
 @media screen and (max-width: 420px) {
     .experience .experience_section_area .exp_inner_Section .exp_item {
@@ -67,6 +302,14 @@
 	   	padding-top: 20px;
 	}
 }
+@media screen and (max-width: 992px) {
+    .experience .experience_section_area .exp_inner_Section .exp_item {
+	    justify-content: center;
+	}
+}
+/* ================= experience section ============= */
+
+
 @media screen and (max-width: 557px) {
     .manage_section .managing_area .manage_content h2 {
 	    font-family: 'Poppins', sans-serif;
@@ -76,11 +319,7 @@
 	}
 }
 
-@media screen and (max-width: 992px) {
-    .experience .experience_section_area .exp_inner_Section .exp_item {
-	    justify-content: center;
-	}
-}
+
 @media screen and (max-width: 992px) {
     .banner .banner_area .banner_content .banner_inner .banner_title h4 {
     color: #fff;
