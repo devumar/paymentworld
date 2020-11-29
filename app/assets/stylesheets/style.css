@@ -176,7 +176,8 @@ body {
 
 .experience{
  background-color: #F6F9FC;
- padding: 150px 0px 0px 0px;
+ padding: 75px 0px 0px 0px;
+ margin-top: 75px;
    overflow: hidden;
 }
 .experience .experience_section_area{
