@@ -95,6 +95,13 @@
 
 }
 
+@media screen and (max-width: 768px) {
+	.banner_fontpage_image {
+    display: flex;
+    width: max-content;
+	}
+}
+
 @media screen and (max-width: 576px) {
 	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer {
 	    display: flex;
