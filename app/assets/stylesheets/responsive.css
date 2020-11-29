@@ -97,7 +97,8 @@
 
 @media screen and (max-width: 576px) {
 	.banner .banner_area .banner_content .banner_inner .banner_main .banner_footer {
-	    width: fit-content;
+	    display: flex;
+      width: max-content;
 	}
 
 }
