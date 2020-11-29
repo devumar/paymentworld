@@ -100,7 +100,7 @@
 	    background: #E8E8E8;
 	    outline: none;
 	    border: none;
-	    width: 170px;
+	    width: max-content;
 	}
 }
 
